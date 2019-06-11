@@ -6,13 +6,13 @@
 /*   By: ojessi <ojessi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 21:34:01 by ojessi            #+#    #+#             */
-/*   Updated: 2019/06/11 13:13:29 by ojessi           ###   ########.fr       */
+/*   Updated: 2019/06/11 16:48:25 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-size_t		ft_strlen(const char *str)
+int		ft_strlen(const char *str)
 {
 	int i;
 

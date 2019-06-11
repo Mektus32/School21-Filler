@@ -6,7 +6,7 @@
 /*   By: ojessi <ojessi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/02 15:18:43 by ojessi            #+#    #+#             */
-/*   Updated: 2019/06/11 13:13:04 by ojessi           ###   ########.fr       */
+/*   Updated: 2019/06/11 16:48:22 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,7 +74,7 @@ char				*ft_strchr(const char *str, int ch);
 int					ft_printf(const char *restrict fmt, ...);
 char				*ft_free_strcpy(char *dest, char *source);
 char				*ft_strnew(size_t size);
-size_t				ft_strlen(const char *str);
+int					ft_strlen(const char *str);
 char				*ft_free_strjoin_duo(char const *s1, char const *s2);
 int					ft_atoi(const char *str);
 char				*ft_free_strncpy(char *dest, const char *new, size_t n);

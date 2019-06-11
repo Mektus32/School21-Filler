@@ -6,7 +6,7 @@
 #    By: ojessi <ojessi@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/06/10 20:38:26 by ojessi            #+#    #+#              #
-#    Updated: 2019/06/11 13:39:10 by ojessi           ###   ########.fr        #
+#    Updated: 2019/06/11 16:45:28 by ojessi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -76,4 +76,4 @@ fclean: clean
 	make -C $(FT) fclean
 	make -C $(PR) fclean
 
-re: fclean
+re: fclean all
