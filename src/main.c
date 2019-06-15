@@ -5,81 +5,44 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ojessi <ojessi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/06/11 12:45:24 by ojessi            #+#    #+#             */
-/*   Updated: 2019/06/11 18:42:11 by ojessi           ###   ########.fr       */
+/*   Created: 2019/06/15 13:34:18 by ojessi            #+#    #+#             */
+/*   Updated: 2019/06/15 15:22:10 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "filler.h"
 
-#define N 5
-
-void	ft_print_map(t_map *map, char field[N][N])
-{
-	int		i;
-	int		j;
-	
-	i = -1;
-	while (++i < map->size_y)
-	{
-		j = -1;
-		while (++j < map->size_x)
-			ft_printf("%2c", field[i][j]);
-		ft_printf("\n");
-	}
-}
-
-char	ft_calc_ves(int i, int j, char field[N][N], char c, t_map *map)
-{
-	int		ves;
-	int		x;
-	int		y;
-	
-	field[0][0] = 0;
-	c = 'c';
-	ves = 1;
-	while (1)
-	{
-		y = i - ves - 1;
-		while (++y < i + ves)
-		{
-			x = j - ves - 1;
-			while (++x < j + ves)
-			{
-				
-			}
-		}
-		ves++;
-	}
-}
-
-void	ft_init_map(t_map *map, char field[N][N], char c)
-{
-	int		i;
-	int		j;
-	
-	i = -1;
-	while (++i < map->size_y)
-	{
-		j = -1;
-		while (++j < map->size_x)
-			field[i][j] = ft_calc_ves(i, j, field, c, map);;
-	}
-}
-
 int		main(void)
 {
-	t_map	*map;
-	char	c;
-	char	field[N][N] =  {{'.', '.', '.', '.', '.'},
-							{'.', '.', '.', '.', '.'},
-							{'.', '.', 'x', '.', '.'},
-							{'.', '.', '.', '.', '.'},
-							{'.', '.', '.', '.', '.'}};
-	map = ft_memalloc(sizeof(t_map));
-	map->size_x = N;
-	map->size_y = N;
-	c = 'x';
-	 ft_print_map(map, field);
+	t_filler	*filler;
+	char		*line;
+	int			i;
+	
+	filler = ft_memalloc(sizeof(t_filler));
+	i = 4;
+	filler->fd = open("one_map", O_RDONLY);
+	filler->player = 0;
+	while (get_next_line(filler->fd, &line) > 0 && --i)
+	{
+		if ((int)ft_strlen(line) > 10 && !ft_strncmp(line, "$$$ exec p", 10))
+			if (line[11] == '1' &&
+			!ft_strncmp(line + 15, "ojessi.filler", 13))
+			filler->player = 1;
+		free(line);
+	}
+	ft_get_param(filler);
+	for (int i = 0; i < filler->map->size_y; i++)
+	{
+		for (int j = 0; j < filler->map->size_x; i++)
+			ft_printf("%c", filler->map->map[i][j]);
+		ft_printf("\n");
+	}
+	ft_printf("\n");
+	for (int i = 0; i < filler->fig->size_y; i++)
+	{
+		for (int j = 0; j < filler->fig->size_x; j++)
+			ft_printf("%c", filler->fig->fig[i][j]);
+		ft_printf("\n");
+	}
 	return (0);
 }
