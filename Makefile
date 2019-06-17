@@ -6,7 +6,7 @@
 #    By: ojessi <ojessi@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/06/10 20:38:26 by ojessi            #+#    #+#              #
-#    Updated: 2019/06/15 14:23:52 by ojessi           ###   ########.fr        #
+#    Updated: 2019/06/16 10:14:39 by ojessi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,8 +15,10 @@
 NAME = ojessi.filler
 
 #src / obj files
-SRC =	main.c \
-		parse_param.c
+SRC =   main.c \
+        parse_param.c \
+        heapmap.c \
+        paste_fig.c
 
 OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))
 

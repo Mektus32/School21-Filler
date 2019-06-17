@@ -6,7 +6,7 @@
 /*   By: ojessi <ojessi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/11 12:44:19 by ojessi            #+#    #+#             */
-/*   Updated: 2019/06/15 15:21:16 by ojessi           ###   ########.fr       */
+/*   Updated: 2019/06/16 10:14:28 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,8 @@ typedef	struct		s_map
 	int		size_y;
 	int		sum;
 	char	**map;
+	int 	y_map;
+	int 	x_map;
 }					t_map;
 
 typedef	struct		s_fig
@@ -31,6 +33,9 @@ typedef	struct		s_fig
 	int		size_x;
 	int		size_y;
 	char	**fig;
+	int 	sum;
+	int 	y_point;
+	int 	x_point;
 }					t_fig;
 
 typedef	struct		s_filler
@@ -41,6 +46,8 @@ typedef	struct		s_filler
 	int		fd;
 }					t_filler;
 
-void		ft_get_param(t_filler *filler);
+void				ft_read_param(t_filler *filler);
+void				ft_heapmap(t_filler *filler);
+void				ft_place_figure(t_filler *filler);
 
 #endif

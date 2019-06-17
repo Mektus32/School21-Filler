@@ -9,3 +9,5 @@ CTestTestfile.cmake
 *.o
 .vscode
 .DS_Store
+.idea
+cmake-build-debug
