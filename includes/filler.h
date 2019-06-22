@@ -23,7 +23,7 @@ typedef	struct		s_map
 	int		size_x;
 	int		size_y;
 	int		sum;
-	char	**map;
+	int		**map;
 	int 	y_map;
 	int 	x_map;
 }					t_map;

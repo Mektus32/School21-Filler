@@ -16,14 +16,28 @@ static	void	ft_read_map(t_filler *filler)
 {
 	char	*line;
 	int		i;
+	int 	j;
 
-	filler->map->map = ft_memalloc(sizeof(char*) * filler->map->size_y);
+	filler->map->map = ft_memalloc(sizeof(int*) * filler->map->size_y);
+
 	get_next_line(filler->fd, &line);
 	free(line);
 	i = -1;
 	while (++i < filler->map->size_y && get_next_line(filler->fd, &line) > 0)
 	{
-		filler->map->map[i] = ft_strdup(line + 4);
+		filler->map->map[i] = ft_memalloc(sizeof(int) *
+				filler->map->size_x);
+		j = -1;
+		while (++j < filler->map->size_x)
+		{
+			line = ft_strtolower(line);
+			if (line[4 + j] == 'x')
+				filler->map->map[i][j] = -1;
+			else if (line[4 + j] == 'o')
+				filler->map->map[i][j] = 0;
+			else if (line[4 + j] == '.')
+				filler->map->map[i][j] = 1;
+		}
 		free(line);
 	}
 }

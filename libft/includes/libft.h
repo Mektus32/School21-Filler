@@ -111,5 +111,6 @@ char				*ft_ultoa(unsigned long n);
 void				ft_frtwarr(void **arr, int size);
 void				ft_list_remove_free_if(t_list **begin_list, int elem);
 int					get_next_line(int fd, char **line);
+char				*ft_strtolower(char *str);
 
 #endif

@@ -231,33 +231,6 @@ ft_printf/src/ft_printf.c.s:
 	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/ft_printf/src/ft_printf.c.s
 .PHONY : ft_printf/src/ft_printf.c.s
 
-ft_printf/src/ft_strtolower.o: ft_printf/src/ft_strtolower.c.o
-
-.PHONY : ft_printf/src/ft_strtolower.o
-
-# target to build an object file
-ft_printf/src/ft_strtolower.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/ft_printf/src/ft_strtolower.c.o
-.PHONY : ft_printf/src/ft_strtolower.c.o
-
-ft_printf/src/ft_strtolower.i: ft_printf/src/ft_strtolower.c.i
-
-.PHONY : ft_printf/src/ft_strtolower.i
-
-# target to preprocess a source file
-ft_printf/src/ft_strtolower.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/ft_printf/src/ft_strtolower.c.i
-.PHONY : ft_printf/src/ft_strtolower.c.i
-
-ft_printf/src/ft_strtolower.s: ft_printf/src/ft_strtolower.c.s
-
-.PHONY : ft_printf/src/ft_strtolower.s
-
-# target to generate assembly for a file
-ft_printf/src/ft_strtolower.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/ft_printf/src/ft_strtolower.c.s
-.PHONY : ft_printf/src/ft_strtolower.c.s
-
 ft_printf/src/init_arg.o: ft_printf/src/init_arg.c.o
 
 .PHONY : ft_printf/src/init_arg.o
@@ -2499,6 +2472,33 @@ libft/ft_strsub.c.s:
 	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/libft/ft_strsub.c.s
 .PHONY : libft/ft_strsub.c.s
 
+libft/ft_strtolower.o: libft/ft_strtolower.c.o
+
+.PHONY : libft/ft_strtolower.o
+
+# target to build an object file
+libft/ft_strtolower.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/libft/ft_strtolower.c.o
+.PHONY : libft/ft_strtolower.c.o
+
+libft/ft_strtolower.i: libft/ft_strtolower.c.i
+
+.PHONY : libft/ft_strtolower.i
+
+# target to preprocess a source file
+libft/ft_strtolower.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/libft/ft_strtolower.c.i
+.PHONY : libft/ft_strtolower.c.i
+
+libft/ft_strtolower.s: libft/ft_strtolower.c.s
+
+.PHONY : libft/ft_strtolower.s
+
+# target to generate assembly for a file
+libft/ft_strtolower.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/libft/ft_strtolower.c.s
+.PHONY : libft/ft_strtolower.c.s
+
 libft/ft_strtrim.o: libft/ft_strtrim.c.o
 
 .PHONY : libft/ft_strtrim.o
@@ -2817,9 +2817,6 @@ help:
 	@echo "... ft_printf/src/ft_printf.o"
 	@echo "... ft_printf/src/ft_printf.i"
 	@echo "... ft_printf/src/ft_printf.s"
-	@echo "... ft_printf/src/ft_strtolower.o"
-	@echo "... ft_printf/src/ft_strtolower.i"
-	@echo "... ft_printf/src/ft_strtolower.s"
 	@echo "... ft_printf/src/init_arg.o"
 	@echo "... ft_printf/src/init_arg.i"
 	@echo "... ft_printf/src/init_arg.s"
@@ -3069,6 +3066,9 @@ help:
 	@echo "... libft/ft_strsub.o"
 	@echo "... libft/ft_strsub.i"
 	@echo "... libft/ft_strsub.s"
+	@echo "... libft/ft_strtolower.o"
+	@echo "... libft/ft_strtolower.i"
+	@echo "... libft/ft_strtolower.s"
 	@echo "... libft/ft_strtrim.o"
 	@echo "... libft/ft_strtrim.i"
 	@echo "... libft/ft_strtrim.s"

@@ -32,8 +32,7 @@ static	int		ft_algor(int i, int j, t_filler *filler)
 				else if (x >= filler->map->size_x || y < 0 ||
 				        y >= filler->map->size_y)
 					break ;
-				else if (filler->map->map[y][x] == (filler->player ? 'O' : 'X')
-				|| filler->map->map[y][x] == (filler->player ? 'o' : 'x'))
+				else if (filler->map->map[y][x] == (filler->player ? 0 : -1))
 					return (ves);
 			}
 		}
@@ -51,17 +50,10 @@ void			ft_heapmap(t_filler *filler)
 	{
 		j = -1;
 		while (++j < filler->map->size_x)
-			if (filler->map->map[i][j] != 'O' && filler->map->map[i][j] != 'X'
-			&& filler->map->map[i][j] != 'o' && filler->map->map[i][j] != 'x')
-				filler->map->map[i][j] = '0' + ft_algor(i, j, filler);
+			if (filler->map->map[i][j] != 0 && filler->map->map[i][j] != -1)
+				filler->map->map[i][j] = ft_algor(i, j, filler);
 	}
 
-//	for (int i = 0; i < filler->map->size_y; i++)
-//	{
-//		for (int j = 0; j < filler->map->size_x; j++)
-//			ft_printf(" %2d", filler->map->map[i][j] - '0');
-//		ft_printf("\n");
-//	}
 	for (int i = 0; i < filler->map->size_x + 5; i++)
 	{
 		if (i < 5)
@@ -77,7 +69,7 @@ void			ft_heapmap(t_filler *filler)
 		{
 			if (j == 0)
 				printf("%3d  ", i);
-			printf("%3d", filler->map->map[i][j] - '0');
+			printf("%3d", filler->map->map[i][j]);
 		}
 		printf("\n");
 	}

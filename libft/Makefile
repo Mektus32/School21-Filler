@@ -95,7 +95,8 @@ SRC	=	ft_atoi.c \
 		ft_ultoa.c \
 		ft_frtwarr.c \
 		get_next_line.c \
-		ft_list_remove_free_if.c
+		ft_list_remove_free_if.c \
+		ft_strtolower.c
 
 OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))
 

@@ -21,7 +21,6 @@ add_executable(Filler
         ft_printf/src/choise_spec.c
         ft_printf/src/ft_free_strncpy.c
         ft_printf/src/ft_printf.c
-        ft_printf/src/ft_strtolower.c
         ft_printf/src/init_arg.c
         ft_printf/src/print_digit.c
         ft_printf/src/print_double.c
@@ -118,6 +117,7 @@ add_executable(Filler
         libft/ft_ultoa.c
         libft/ft_ultoa_base.c
         libft/get_next_line.c
+        libft/ft_strtolower.c
         libft/Makefile
         resources/maps/map00
         resources/maps/map01

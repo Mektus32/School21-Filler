@@ -33,23 +33,15 @@ static	void	ft_valid_place(t_filler *filler, int imap, int jmap)
 		while (++j < filler->fig->size_x)
 			if (filler->fig->fig[i][j] == '*' && (IPOINT != i || JPOINT != j))
 			{
-				if (filler->map->map[imap + i - IPOINT][jmap + j - JPOINT] =='X'
-				|| filler->map->map[imap + i - IPOINT][jmap + j - JPOINT] == 'O'
-				|| filler->map->map[imap + i - IPOINT][jmap + j - JPOINT] == 'o'
-				|| filler->map->map[imap + i - IPOINT][jmap + j - JPOINT] == 'x'
-						)
+				if (filler->map->map[imap + i - IPOINT][jmap + j - JPOINT] == -1
+				|| filler->map->map[imap + i - IPOINT][jmap + j - JPOINT] == 0)
 					return ;
 				else
-					sum += filler->map->map[imap + i - IPOINT][jmap + j - JPOINT]
-						   - '0';
+					sum += filler->map->map[imap + i - IPOINT][jmap + j - JPOINT];
 			}
 	}
-	ft_printf("\n");
-	ft_printf("sum = %d filler->sum = %d\n", sum, filler->fig->sum);
 	if (sum < filler->fig->sum)
 	{
-		printf("imap = %2d, jmap = %2d\n", imap, jmap);
-		ft_printf("ipoint = %2d, jpoint = %2d\n", IPOINT, JPOINT);
 		filler->fig->sum = sum;
 		filler->map->y_map = imap;
 		filler->map->x_map = jmap;
@@ -86,8 +78,10 @@ void			ft_place_figure(t_filler *filler)
 	{
 		j = -1;
 		while (++j < filler->map->size_x)
-			if (filler->map->map[i][j] == (!filler->player ? 'O' : 'X') ||
-			filler->map->map[i][j] == (!filler->player  ? 'o' : 'x'))
+			if (filler->map->map[i][j] == (!filler->player ? 0 : -1))
 				ft_find_contact(filler, i, j);
 	}
+	//ft_printf("%d %d\n", filler->map->y_map - IPOINT, filler->map->x_map - JPOINT);
+	printf("%d %d\n", 12, 14);
+	exit (0);
 }

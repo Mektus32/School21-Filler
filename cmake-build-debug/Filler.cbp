@@ -125,9 +125,6 @@
 		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_printf.c">
 			<Option target="Filler"/>
 		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_strtolower.c">
-			<Option target="Filler"/>
-		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/init_arg.c">
 			<Option target="Filler"/>
 		</Unit>
@@ -387,6 +384,9 @@
 			<Option target="Filler"/>
 		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/libft/ft_strsub.c">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/libft/ft_strtolower.c">
 			<Option target="Filler"/>
 		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/libft/ft_strtrim.c">

@@ -19,7 +19,7 @@ int		main(void)
 	int			i;
 
 	filler = ft_memalloc(sizeof(t_filler));
-	filler->fd = open("/Users/ojessi/Desktop/Filler/one_map", O_RDONLY);
+	filler->fd = 0;//open("/Users/ojessi/Desktop/Filler/one_map", O_RDONLY);
 	filler->player = 0;
 	i = 4;
 	while (i-- && get_next_line(filler->fd, &line) > 0)

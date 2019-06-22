@@ -86,7 +86,7 @@ char				*ft_ultoa(unsigned long n);
 char				*ft_ultoa_base(unsigned long n, int base);
 char				*ft_free_strjoin_rev(char *src, char *new);
 char				*ft_strjoin(char const *s1, char const *s2);
-char				*ft_srttolower(char *str);
+char				*ft_strtolower(char *str);
 char				*ft_ltoa_base(long n, int base);
 char				*ft_ftoa(long double nbr);
 void				check_settings(const char *restrict fmt, t_ob *ob);
