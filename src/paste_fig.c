@@ -73,6 +73,8 @@ void			ft_place_figure(t_filler *filler)
 	int 	j;
 
 	filler->fig->sum = 10000000;
+	filler->map->x_map = 0;
+	filler->map->y_map = 0;
 	i = -1;
 	while (++i < filler->map->size_y)
 	{
@@ -81,7 +83,8 @@ void			ft_place_figure(t_filler *filler)
 			if (filler->map->map[i][j] == (!filler->player ? 0 : -1))
 				ft_find_contact(filler, i, j);
 	}
-	//ft_printf("%d %d\n", filler->map->y_map - IPOINT, filler->map->x_map - JPOINT);
-	printf("%d %d\n", 12, 14);
-	exit (0);
+	if (filler->map->y_map && filler->map->x_map)
+		ft_printf("%d %d\n", filler->map->y_map - IPOINT, filler->map->x_map - JPOINT);
+	else
+		ft_printf("%d %d\n", 0, 0);
 }

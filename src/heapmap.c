@@ -53,24 +53,4 @@ void			ft_heapmap(t_filler *filler)
 			if (filler->map->map[i][j] != 0 && filler->map->map[i][j] != -1)
 				filler->map->map[i][j] = ft_algor(i, j, filler);
 	}
-
-	for (int i = 0; i < filler->map->size_x + 5; i++)
-	{
-		if (i < 5)
-			printf(" ");
-		else
-			printf("%3d", (i - 5) % 10);
-	}
-	printf("\n");
-	printf("\n");
-	for (int i = 0; i < filler->map->size_y; i++)
-	{
-		for (int j = 0; j < filler->map->size_x; j++)
-		{
-			if (j == 0)
-				printf("%3d  ", i);
-			printf("%3d", filler->map->map[i][j]);
-		}
-		printf("\n");
-	}
 }
