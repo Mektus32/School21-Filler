@@ -33,22 +33,22 @@ static	void	ft_valid_place(t_filler *filler, int imap, int jmap)
 		while (++j < filler->fig->size_x)
 			if (filler->fig->fig[i][j] == '*' && (IPOINT != i || JPOINT != j))
 			{
-				if (filler->fig->fig[imap + i - IPOINT][jmap + j - JPOINT] ==
-				'x' || filler->fig->fig[imap + i - IPOINT][jmap + j - JPOINT]
-				== 'X' ||
-				filler->fig->fig[imap + i - IPOINT][jmap + j - JPOINT] == 'O'
-				|| filler->fig->fig[imap + i - IPOINT][jmap + j - JPOINT] ==
-				'o')
+				if (filler->map->map[imap + i - IPOINT][jmap + j - JPOINT] =='X'
+				|| filler->map->map[imap + i - IPOINT][jmap + j - JPOINT] == 'O'
+				|| filler->map->map[imap + i - IPOINT][jmap + j - JPOINT] == 'o'
+				|| filler->map->map[imap + i - IPOINT][jmap + j - JPOINT] == 'x'
+						)
 					return ;
+				else
+					sum += filler->map->map[imap + i - IPOINT][jmap + j - JPOINT]
+						   - '0';
 			}
-			else
-				sum += filler->fig->fig[imap + i - IPOINT][jmap + j - JPOINT]
-						- '0';
 	}
 	ft_printf("\n");
-	//ft_printf("sum = %d filler->sum = %d\n", sum, filler->fig->sum);
+	ft_printf("sum = %d filler->sum = %d\n", sum, filler->fig->sum);
 	if (sum < filler->fig->sum)
 	{
+		printf("imap = %2d, jmap = %2d\n", imap, jmap);
 		ft_printf("ipoint = %2d, jpoint = %2d\n", IPOINT, JPOINT);
 		filler->fig->sum = sum;
 		filler->map->y_map = imap;
@@ -68,8 +68,8 @@ static	void	ft_find_contact(t_filler *filler, int imap, int jmap)
 		while (++j < filler->fig->size_x)
 			if (filler->fig->fig[i][j] == '*')
 			{
-				filler->fig->y_point = i;
-				filler->fig->x_point = j;
+				IPOINT = i;
+				JPOINT = j;
 				ft_valid_place(filler, imap, jmap);
 			}
 	}

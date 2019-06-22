@@ -26,7 +26,7 @@ int		main(void)
 	{
 		if (line && (int)ft_strlen(line) > 10 && !ft_strncmp(line,
 				"$$$ exec p", 9))
-			if (line[10] == '2' && !ft_strncmp(line + 15, "ojessi.filler", 12))//use ft_strstr to find my filler
+			if (line[10] == '2' && ft_strstr(line, "ojessi.filler]"))
 				filler->player = 1;
 		free(line);
 	}
