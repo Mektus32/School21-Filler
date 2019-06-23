@@ -22,7 +22,6 @@ typedef	struct		s_map
 {
 	int		size_x;
 	int		size_y;
-	int		sum;
 	int		**map;
 	int 	y_map;
 	int 	x_map;
@@ -44,9 +43,10 @@ typedef	struct		s_filler
 	t_fig	*fig;
 	int		player;
 	int		fd;
+	int 	flag;
 }					t_filler;
 
-void				ft_read_param(t_filler *filler);
+void				ft_read_param(t_filler *filler, char *line);
 void				ft_heapmap(t_filler *filler);
 void				ft_place_figure(t_filler *filler);
 

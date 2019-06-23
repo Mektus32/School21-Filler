@@ -27,7 +27,7 @@ typedef struct		s_list
 }					t_list;
 
 void				*ft_memset(void *memptr, int value, size_t num);
-void				ft_bzero(void *s, size_t n);
+void				ft_bzero(void **s, size_t n);
 int					ft_memcmp(const void *arr1, const void *arr2, size_t n);
 void				*ft_memccpy(void *dest, const void *source,
 		int ch, size_t count);

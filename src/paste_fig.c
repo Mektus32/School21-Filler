@@ -76,6 +76,7 @@ void			ft_place_figure(t_filler *filler)
 	filler->map->x_map = 0;
 	filler->map->y_map = 0;
 	i = -1;
+	ft_printf("{set:fd} %s\n", 3, "place_fig");
 	while (++i < filler->map->size_y)
 	{
 		j = -1;
@@ -84,7 +85,10 @@ void			ft_place_figure(t_filler *filler)
 				ft_find_contact(filler, i, j);
 	}
 	if (filler->map->y_map && filler->map->x_map)
-		ft_printf("%d %d\n", filler->map->y_map - IPOINT, filler->map->x_map - JPOINT);
+		ft_printf("%d %d", filler->map->y_map - IPOINT, filler->map->x_map - JPOINT);
 	else
-		ft_printf("%d %d\n", 0, 0);
+		ft_printf("%d %d", 0, 0);
+	ft_printf("{set:fd} %d %d", 3, filler->map->y_map - IPOINT, filler->map->x_map - JPOINT);
+	ft_frtwarr((void**)filler->fig->fig, filler->fig->size_y);
+	free(filler->fig);
 }
