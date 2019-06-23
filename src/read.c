@@ -36,11 +36,6 @@ void	ft_create_map(t_filler *filler, char *line)
 	int			j;
 
 	j = -1;
-	if (i == filler->map_y)
-	{
-		i = 0;
-		return ;
-	}
 	line = ft_strtolower(line);
 	while (++j < filler->map_x)
 		if (line[4 + j] == '.')
@@ -50,6 +45,11 @@ void	ft_create_map(t_filler *filler, char *line)
 		else if (line[4 + j] == 'x')
 			filler->map[i][j] = -1;
 	i++;
+	if (i == filler->map_y)
+	{
+		i = 0;
+		return ;
+	}
 }
 
 void	ft_define_fig(t_filler *filler, char *line)

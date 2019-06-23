@@ -14,8 +14,8 @@
 
 void	ft_init_filler(t_filler *filler)
 {
-	filler->fd = 0; /*open("/Users/ojessi/Desktop/Filler/one_map",
-			O_RDWR | O_APPEND);*/
+	filler->fd = 0;//open("/Users/ojessi/Desktop/Filler/one_map",
+		//	O_RDWR | O_APPEND);
 	filler->player = 0;
 	filler->map_y = 0;
 	filler->map_x = 0;
