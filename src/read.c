@@ -5,24 +5,24 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ojessi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/06/23 14:25:30 by ojessi            #+#    #+#             */
-/*   Updated: 2019/06/23 14:25:31 by ojessi           ###   ########.fr       */
+/*   Created: 2019/06/23 18:00:24 by ojessi            #+#    #+#             */
+/*   Updated: 2019/06/23 18:00:25 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "filler.h"
 
-static	void	define_map(t_filler *filler, char *line)
+void	ft_define_map(t_filler *filler, char *line)
 {
 	int		i;
 
 	i = 0;
-	while (ft_isdigit(line[i]) == 0)
-		++i;
+	while (!ft_isdigit(line[i]))
+		i++;
 	filler->map_y = ft_atoi(&line[i]);
-	while (ft_isdigit(line[i]) == 1)
-		++i;
-	++i;
+	while (ft_isdigit(line[i]))
+		i++;
+	i++;
 	filler->map_x = ft_atoi(&line[i]);
 	filler->map = ft_memalloc(sizeof(int*) * filler->map_y);
 	i = -1;
@@ -30,14 +30,19 @@ static	void	define_map(t_filler *filler, char *line)
 		filler->map[i] = ft_memalloc(sizeof(int) * filler->map_x);
 }
 
-static void		create_map(t_filler *filler, char *line)
+void	ft_create_map(t_filler *filler, char *line)
 {
-	static	int 	i;
-	int 			j;
+	static	int i;
+	int			j;
 
 	j = -1;
+	if (i == filler->map_y)
+	{
+		i = 0;
+		return ;
+	}
 	line = ft_strtolower(line);
-	while (++j < filler->map_x && line[4 + j] != '\0')
+	while (++j < filler->map_x)
 		if (line[4 + j] == '.')
 			filler->map[i][j] = 1;
 		else if (line[4 + j] == 'o')
@@ -47,43 +52,52 @@ static void		create_map(t_filler *filler, char *line)
 	i++;
 }
 
-static	void	define_fig(t_filler *filler, char *line)
+void	ft_define_fig(t_filler *filler, char *line)
 {
 	int		i;
 
 	i = 0;
-	while (ft_isdigit(line[i]) == 0)
-		++i;
+	while (!ft_isdigit(line[i]))
+		i++;
 	filler->fig_y = ft_atoi(&line[i]);
-	while (ft_isdigit(line[i]) == 1)
-		++i;
-	++i;
+	while (ft_isdigit(line[i]))
+		i++;
+	i++;
 	filler->fig_x = ft_atoi(&line[i]);
 	filler->fig = ft_memalloc(sizeof(char*) * filler->fig_y);
 	i = -1;
 	while (++i < filler->fig_y)
-		filler->fig[i] = ft_memalloc(sizeof(char) * filler->fig_x);
+	{
+		filler->fig[i] = ft_memalloc(sizeof(char) * (filler->fig_x + 1));
+		filler->fig[i][filler->fig_x] = '\0';
+	}
 }
 
-void			ft_read(t_filler *filler, char *line, int *index)
+void	ft_create_fig(t_filler *filler, char *line)
 {
-	if (!filler->player)
-		if (ft_strstr(line, "p2") && ft_strstr(line, "ojessi"))
-			filler->player = 1;
-	if (!filler->map_y && !filler->map_x && ft_strstr(line, "Plateau"))
-		define_map(filler, line);
-	if ((line[0] == '0' || line[0] == '1') && filler->map)
-		create_map(filler, line);
-	if (ft_strstr(line, "Piece"))
-		define_fig(filler, line);
-	if (filler->fig && (line[0] == '.' || line[0] == '*'))
+	static	int i;
+
+	filler->fig[i] = ft_strcpy(filler->fig[i], line);
+	i++;
+	if (i == filler->fig_y)
 	{
-		ft_strcpy(filler->fig[(*index)++], line);
-		if (*(index) == filler->fig_y)
-		{
-			*index = 0;
-			ft_place_fig(filler);
-			ft_frtwarr((void**)filler->fig, filler->fig_y);
-		}
+		ft_place_fig(filler);
+		ft_frtwarr((void**)filler->fig, filler->fig_y);
+		ft_frtwarr((void**)filler->map, filler->map_y);
+		i = 0;
 	}
+}
+
+void	ft_read_params(t_filler *filler, char *line)
+{
+	if (ft_strstr(line, "p2") && ft_strstr(line, "ojessi"))
+		filler->player = -1;
+	else if (ft_strstr(line, "Plateau"))
+		ft_define_map(filler, line);
+	else if (filler->map && (line[0] == '0' || line[0] == '1'))
+		ft_create_map(filler, line);
+	else if (ft_strstr(line, "Piece"))
+		ft_define_fig(filler, line);
+	else if (filler->fig && (line[0] == '.' || line[0] == '*'))
+		ft_create_fig(filler, line);
 }

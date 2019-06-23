@@ -5,34 +5,36 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ojessi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/06/23 14:18:37 by ojessi            #+#    #+#             */
-/*   Updated: 2019/06/23 14:18:38 by ojessi           ###   ########.fr       */
+/*   Created: 2019/06/23 17:56:06 by ojessi            #+#    #+#             */
+/*   Updated: 2019/06/23 17:56:07 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "filler.h"
 
-int 	main(void)
+void	ft_init_filler(t_filler *filler)
+{
+	filler->fd = 0; /*open("/Users/ojessi/Desktop/Filler/one_map",
+			O_RDWR | O_APPEND);*/
+	filler->player = 0;
+	filler->map_y = 0;
+	filler->map_x = 0;
+	filler->fig_y = 0;
+	filler->fig_x = 0;
+}
+
+int		main(void)
 {
 	t_filler	filler;
-	char 		*line;
-	int 		index;
-	int 		fd;
+	char		*line;
 
-	index = 0;
-	line = NULL;
-	ft_bzero(&filler, sizeof(t_filler));
-	fd = open("/Users/ojessi/Desktop/Filler/one_map", O_RDWR | O_APPEND);
-	while (get_next_line(fd, &line) > 0)
+	ft_init_filler(&filler);
+	while (1)
 	{
-		//write(3, line, ft_strlen(line));
-		//write(3, "\n", 1);
-		ft_read(&filler, line, &index);
+		if (get_next_line(filler.fd, &line) < 1)
+			break ;
+		ft_read_params(&filler, line);
 		ft_strdel(&line);
-		//write(3, "end loop\n", ft_strlen("end loop\n"));
 	}
-	ft_strdel(&line);
-	ft_frtwarr((void**)filler.map, filler.map_y);
-	close(fd);
 	return (0);
 }
