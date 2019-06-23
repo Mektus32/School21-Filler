@@ -29,10 +29,10 @@ static	int		ft_algor(int i, int j, t_filler *filler)
 			{
 				if (x < 0)
 					continue ;
-				else if (x >= filler->map->size_x || y < 0 ||
-				        y >= filler->map->size_y)
+				else if (x >= filler->map_x || y < 0 ||
+				y >= filler->map_y)
 					break ;
-				else if (filler->map->map[y][x] == (filler->player ? 0 : -1))
+				else if (filler->map[y][x] == (filler->player ? 0 : -1))
 					return (ves);
 			}
 		}
@@ -42,43 +42,15 @@ static	int		ft_algor(int i, int j, t_filler *filler)
 
 void			ft_heapmap(t_filler *filler)
 {
-	int 	i;
-	int 	j;
+	int		i;
+	int		j;
 
-	ft_printf("{set:fd} %s\n", 3, "heap");
 	i = -1;
-	while (++i < filler->map->size_y)
+	while (++i < filler->map_y)
 	{
 		j = -1;
-		while (++j < filler->map->size_x)
-			if (filler->map->map[i][j] != 0 && filler->map->map[i][j] != -1)
-				filler->map->map[i][j] = ft_algor(i, j, filler);
+		while (++j < filler->map_x)
+			if (filler->map[i][j] != 0 && filler->map[i][j] != -1)
+				filler->map[i][j] = ft_algor(i, j, filler);
 	}
-
-//	for (int i = 0; i < filler->map->size_x + 5; i++)
-//	{
-//		if (i < 5)
-//			printf(" ");
-//		else
-//			printf("%3d", (i - 5) % 10);
-//	}
-//	printf("\n");
-//	printf("\n");
-//	for (int i = 0; i < filler->map->size_y; i++)
-//	{
-//		for (int j = 0; j < filler->map->size_x; j++)
-//		{
-//			if (j == 0)
-//				printf("%3d  ", i);
-//			printf("%3d", filler->map->map[i][j]);
-//		}
-//		printf("\n");
-//	}
-//
-//	for (int i = 0; i < filler->fig->size_y; i++)
-//	{
-//		for (int j = 0; j < filler->fig->size_x; j++)
-//			printf("%c", filler->fig->fig[i][j]);
-//		printf("\n");
-//	}
 }

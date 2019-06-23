@@ -16,9 +16,9 @@ NAME = ojessi.filler
 
 #src / obj files
 SRC =   main.c \
-        parse_param.c \
-        heapmap.c \
-        paste_fig.c
+        read.c \
+        algor.c \
+        heapmap.c
 
 OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))
 
