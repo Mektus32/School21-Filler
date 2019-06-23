@@ -132,8 +132,8 @@ add_executable(Filler
         resources/filler_vm
         resources/test
         src/main.c
-        src/parse_param.c
+        src/read.c
+        src/algor.c
         src/heapmap.c
-        src/paste_fig.c
         Makefile
         one_map)

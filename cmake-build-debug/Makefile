@@ -2688,6 +2688,33 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
+src/algor.o: src/algor.c.o
+
+.PHONY : src/algor.o
+
+# target to build an object file
+src/algor.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/src/algor.c.o
+.PHONY : src/algor.c.o
+
+src/algor.i: src/algor.c.i
+
+.PHONY : src/algor.i
+
+# target to preprocess a source file
+src/algor.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/src/algor.c.i
+.PHONY : src/algor.c.i
+
+src/algor.s: src/algor.c.s
+
+.PHONY : src/algor.s
+
+# target to generate assembly for a file
+src/algor.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/src/algor.c.s
+.PHONY : src/algor.c.s
+
 src/heapmap.o: src/heapmap.c.o
 
 .PHONY : src/heapmap.o
@@ -2742,59 +2769,32 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/src/main.c.s
 .PHONY : src/main.c.s
 
-src/parse_param.o: src/parse_param.c.o
+src/read.o: src/read.c.o
 
-.PHONY : src/parse_param.o
-
-# target to build an object file
-src/parse_param.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/src/parse_param.c.o
-.PHONY : src/parse_param.c.o
-
-src/parse_param.i: src/parse_param.c.i
-
-.PHONY : src/parse_param.i
-
-# target to preprocess a source file
-src/parse_param.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/src/parse_param.c.i
-.PHONY : src/parse_param.c.i
-
-src/parse_param.s: src/parse_param.c.s
-
-.PHONY : src/parse_param.s
-
-# target to generate assembly for a file
-src/parse_param.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/src/parse_param.c.s
-.PHONY : src/parse_param.c.s
-
-src/paste_fig.o: src/paste_fig.c.o
-
-.PHONY : src/paste_fig.o
+.PHONY : src/read.o
 
 # target to build an object file
-src/paste_fig.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/src/paste_fig.c.o
-.PHONY : src/paste_fig.c.o
+src/read.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/src/read.c.o
+.PHONY : src/read.c.o
 
-src/paste_fig.i: src/paste_fig.c.i
+src/read.i: src/read.c.i
 
-.PHONY : src/paste_fig.i
+.PHONY : src/read.i
 
 # target to preprocess a source file
-src/paste_fig.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/src/paste_fig.c.i
-.PHONY : src/paste_fig.c.i
+src/read.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/src/read.c.i
+.PHONY : src/read.c.i
 
-src/paste_fig.s: src/paste_fig.c.s
+src/read.s: src/read.c.s
 
-.PHONY : src/paste_fig.s
+.PHONY : src/read.s
 
 # target to generate assembly for a file
-src/paste_fig.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/src/paste_fig.c.s
-.PHONY : src/paste_fig.c.s
+src/read.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/src/read.c.s
+.PHONY : src/read.c.s
 
 # Help Target
 help:
@@ -3090,18 +3090,18 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
+	@echo "... src/algor.o"
+	@echo "... src/algor.i"
+	@echo "... src/algor.s"
 	@echo "... src/heapmap.o"
 	@echo "... src/heapmap.i"
 	@echo "... src/heapmap.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/parse_param.o"
-	@echo "... src/parse_param.i"
-	@echo "... src/parse_param.s"
-	@echo "... src/paste_fig.o"
-	@echo "... src/paste_fig.i"
-	@echo "... src/paste_fig.s"
+	@echo "... src/read.o"
+	@echo "... src/read.i"
+	@echo "... src/read.s"
 .PHONY : help
 
 

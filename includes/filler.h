@@ -18,36 +18,25 @@
 # include "libft.h"
 # include "ft_printf.h"
 
-typedef	struct		s_map
+typedef struct		s_point
 {
-	int		size_x;
-	int		size_y;
-	int		**map;
-	int 	y_map;
-	int 	x_map;
-}					t_map;
+	int 	x;
+	int 	y;
+}					t_point;
 
-typedef	struct		s_fig
+typedef struct		s_filler
 {
-	int		size_x;
-	int		size_y;
-	char	**fig;
-	int 	sum;
-	int 	y_point;
-	int 	x_point;
-}					t_fig;
-
-typedef	struct		s_filler
-{
-	t_map	*map;
-	t_fig	*fig;
-	int		player;
-	int		fd;
-	int 	flag;
+	int 	player;
+	int 	**map;
+	int 	map_x;
+	int 	map_y;
+	char 	**fig;
+	int 	fig_x;
+	int 	fig_y;
 }					t_filler;
 
-void				ft_read_param(t_filler *filler, char *line);
+void				ft_read(t_filler *filler, char *line, int *index);
+void				ft_place_fig(t_filler *filler);
 void				ft_heapmap(t_filler *filler);
-void				ft_place_figure(t_filler *filler);
 
 #endif

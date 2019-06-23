@@ -455,16 +455,16 @@
 		<Unit filename="/Users/ojessi/Desktop/Filler/resources/test">
 			<Option target="Filler"/>
 		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/src/algor.c">
+			<Option target="Filler"/>
+		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/src/heapmap.c">
 			<Option target="Filler"/>
 		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/src/main.c">
 			<Option target="Filler"/>
 		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/src/parse_param.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/src/paste_fig.c">
+		<Unit filename="/Users/ojessi/Desktop/Filler/src/read.c">
 			<Option target="Filler"/>
 		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/CMakeLists.txt">
