@@ -15,26 +15,25 @@
 
 # include <stdio.h>
 # include <fcntl.h>
-#include <gssapi.h>
 # include "libft.h"
 # include "ft_printf.h"
 
 typedef	struct		s_point
 {
 	int		x;
-	int 	y;
+	int		y;
 }					t_point;
 
 typedef struct		s_filler
 {
-	int 	fd;
-	int 	player;
-	int 	**map;
-	int 	map_x;
-	int 	map_y;
-	char 	**fig;
-	int 	fig_x;
-	int 	fig_y;
+	int		fd;
+	int		player;
+	int		**map;
+	int		map_x;
+	int		map_y;
+	char	**fig;
+	int		fig_x;
+	int		fig_y;
 }					t_filler;
 
 void				ft_read_params(t_filler *filler, char *line);
