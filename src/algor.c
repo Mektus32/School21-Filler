@@ -59,6 +59,15 @@ int		ft_check_place(t_filler *filler, int imap, int jmap)
 	return (count);
 }
 
+void	ft_init_ans(t_point *answer, int *min_sum, t_filler *filler, int *i)
+{
+	*min_sum = 1000000;
+	ft_heapmap(filler);
+	answer->x = 0;
+	answer->y = 0;
+	*i = -1;
+}
+
 void	ft_place_fig(t_filler *filler)
 {
 	t_point *answer;
@@ -68,12 +77,7 @@ void	ft_place_fig(t_filler *filler)
 	int		min_sum;
 
 	answer = ft_memalloc(sizeof(t_point));
-	min_sum = 1000000;
-	ft_heapmap(filler);
-	answer->x = 0;
-	answer->y = 0;
-	//ft_init_ans(answer, &min_sum, filler);
-	i = -1;
+	ft_init_ans(answer, &min_sum, filler, &i);
 	while (++i < filler->map_y)
 	{
 		j = -1;

@@ -42,8 +42,8 @@ static	int		ft_algor(int i, int j, t_filler *filler)
 
 void			ft_heapmap(t_filler *filler)
 {
-	int 	i;
-	int 	j;
+	int		i;
+	int		j;
 
 	i = -1;
 	while (++i < filler->map_y)
@@ -53,31 +53,4 @@ void			ft_heapmap(t_filler *filler)
 			if (filler->map[i][j] != 0 && filler->map[i][j] != -1)
 				filler->map[i][j] = ft_algor(i, j, filler);
 	}
-
-//	for (int i = 0; i < filler->map_x + 5; i++)
-//	{
-//		if (i < 5)
-//			printf(" ");
-//		else
-//			printf("%3d", (i - 5) % 10);
-//	}
-//	printf("\n");
-//	printf("\n");
-//	for (int i = 0; i < filler->map_y; i++)
-//	{
-//		for (int j = 0; j < filler->map_x; j++)
-//		{
-//			if (j == 0)
-//				printf("%3d  ", i);
-//			printf("%3d", filler->map[i][j]);
-//		}
-//		printf("\n");
-//	}
-//
-//	for (int i = 0; i < filler->fig_y; i++)
-//	{
-//		for (int j = 0; j < filler->fig_x; j++)
-//			printf("%c", filler->fig[i][j]);
-//		printf("\n");
-//	}
 }
