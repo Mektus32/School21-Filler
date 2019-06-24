@@ -83,7 +83,7 @@ void	ft_create_fig(t_filler *filler, char *line)
 	{
 		ft_place_fig(filler);
 		ft_frtwarr((void**)filler->fig, filler->fig_y);
-		ft_frtwarr((void**)filler->map, filler->map_y);
+		//ft_frtwarr((void**)filler->map, filler->map_y);
 		i = 0;
 	}
 }
@@ -92,7 +92,7 @@ void	ft_read_params(t_filler *filler, char *line)
 {
 	if (ft_strstr(line, "p2") && ft_strstr(line, "ojessi"))
 		filler->player = -1;
-	else if (ft_strstr(line, "Plateau"))
+	else if (ft_strstr(line, "Plateau") && !filler->map)
 		ft_define_map(filler, line);
 	else if (filler->map && (line[0] == '0' || line[0] == '1'))
 		ft_create_map(filler, line);

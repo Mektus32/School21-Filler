@@ -72,7 +72,7 @@ int		ft_contact(t_filler *filler, int imap, int jmap)
 {
 	int		i;
 	int		j;
-	t_poin	tmpfig;
+	t_point	tmpfig;
 
 	i = -1;
 	while (++i < filler->fig_y)
