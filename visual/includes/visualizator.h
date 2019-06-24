@@ -44,6 +44,12 @@ typedef struct		s_params
 	void	*win_ptr;
 	t_image	*image;
 	t_map	*map;
+	int 	pause;
+	char	*player1;
+	char	*player2;
 }					t_params;
+
+void				ft_key_hook(t_params *p);
+void				ft_read_param(t_params *p);
 
 #endif

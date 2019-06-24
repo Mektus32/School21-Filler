@@ -16,6 +16,8 @@ NAME = visualizator
 
 # src / ob files
 SRC =	main.c \
+		key_hook.c \
+		read_params.c \
 
 OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))
 
@@ -44,7 +46,7 @@ SRCDIR = ./src/
 INCDIR = ./includes/
 OBJDIR = ./obj/
 
-all: obj $(MLX_LIB) grn $(NAME) off
+all: obj grn $(MLX_LIB) $(NAME) off
 
 red:
 	@echo "\x1B[31m"

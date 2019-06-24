@@ -15,10 +15,14 @@
 
 void	ft_init_par(t_params *p)
 {
+	p->mlx_ptr = mlx_init();
+	p->win_ptr = mlx_new_window(p->mlx_ptr, WIDTH, HEIGHT, WINNAME);
+	p->image = ft_memalloc(sizeof(t_image));
+	//cчитать картинку для названия проекта
 	p->map = ft_memalloc(sizeof(t_map));
 	p->map->map_y = 0;
 	p->map->map_x = 0;
-	p->image = ft_memalloc(sizeof(t_image));
+	p->pause = 0;
 }
 
 int 	main(void)
@@ -27,8 +31,8 @@ int 	main(void)
 
 	p = ft_memalloc(sizeof(t_params));
 	ft_init_par(p);
-	p->mlx_ptr = mlx_init();
-	p->win_ptr = mlx_new_window(p->mlx_ptr, WIDTH, HEIGHT, WINNAME);
+	ft_read_param(p);
+	ft_key_hook(p);
 	mlx_loop(p->mlx_ptr);
 	return (0);
 }
