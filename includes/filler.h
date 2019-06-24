@@ -26,6 +26,8 @@ typedef	struct		s_point
 
 typedef struct		s_filler
 {
+	t_point	mapcor;
+	int		sum;
 	int		fd;
 	int		player;
 	int		**map;
@@ -34,8 +36,6 @@ typedef struct		s_filler
 	char	**fig;
 	int		fig_x;
 	int		fig_y;
-    t_point mapcor;
-    int     sum;
 }					t_filler;
 
 void				ft_read_params(t_filler *filler, char *line);

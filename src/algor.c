@@ -12,12 +12,21 @@
 
 #include "filler.h"
 
+#define MAP filler->map[imap + i - tmpfig.y][jmap + j - tmpfig.x]
+
+int		ft_return(int count, int sum)
+{
+	if (count == 1)
+		return (sum);
+	return (0);
+}
+
 int		ft_check_mask(t_filler *filler, int imap, int jmap, t_point tmpfig)
 {
-	int 	i;
-	int 	j;
-	int 	count;
-	int 	sum;
+	int		i;
+	int		j;
+	int		count;
+	int		sum;
 
 	sum = 0;
 	count = 0;
@@ -28,52 +37,53 @@ int		ft_check_mask(t_filler *filler, int imap, int jmap, t_point tmpfig)
 		while (++j < filler->fig_x)
 			if (filler->fig[i][j] == '*')
 			{
-				if (filler->map[imap + i - tmpfig.y][jmap + j - tmpfig.x]
-				== filler->player)
+				if (MAP == filler->player)
 					count++;
-				else if (filler->map[imap + i - tmpfig.y][jmap + j - tmpfig.x]
-				== 0 ||
-				filler->map[imap + i - tmpfig.y][jmap + j - tmpfig.x] == -1)
+				else if (MAP == 0 || MAP == -1)
 					return (0);
 				else
-					sum += filler->map[imap + i - tmpfig.y][jmap + j - tmpfig.x];
+					sum += MAP;
 			}
-
 	}
-	if (count == 1)
-		return (sum);
-	return (0);
+	return (ft_return(count, sum));
 }
 
-int 	ft_contact(t_filler *filler, int imap, int jmap)
+void	ft_norm(t_filler *filler, int imap, int jmap, t_point *tmpfig)
 {
-	int 	i;
-	int 	j;
-	t_point	tmpfig;
-	int 	tmp;
+	int		tmp;
+
+	if (imap - tmpfig->y < 0 || jmap - tmpfig->x < 0 ||
+		imap + (filler->fig_y - tmpfig->y) > filler->map_y
+	|| jmap + (filler->fig_x - tmpfig->x) > filler->map_x)
+		return ;
+	else
+	{
+		if ((tmp = ft_check_mask(filler, imap, jmap, *tmpfig))
+		&& tmp < filler->sum)
+		{
+			filler->mapcor.y = imap - tmpfig->y;
+			filler->mapcor.x = jmap - tmpfig->x;
+			filler->sum = tmp;
+		}
+	}
+}
+
+int		ft_contact(t_filler *filler, int imap, int jmap)
+{
+	int		i;
+	int		j;
+	t_poin	tmpfig;
 
 	i = -1;
 	while (++i < filler->fig_y)
 	{
 		j = -1;
-			while (++j < filler->fig_x)
-				if (filler->fig[i][j] == '*')
-				{
-					if (imap - i < 0 || jmap - j < 0 || imap + (filler->fig_y - i) >= filler->map_y ||
-						jmap + (filler->fig_x - j) >= filler->map_x)
-						continue ;
-					else
-					{
-						tmpfig.y = i;
-						tmpfig.x = j;
-						if ((tmp = ft_check_mask(filler, imap, jmap, tmpfig)) && tmp < filler->sum)
-						{
-							filler->mapcor.y = imap - tmpfig.y;
-							filler->mapcor.x = jmap - tmpfig.x;
-							filler->sum = tmp;
-						}
-
-					}
+		while (++j < filler->fig_x)
+			if (filler->fig[i][j] == '*')
+			{
+				tmpfig.y = i;
+				tmpfig.x = j;
+				ft_norm(filler, imap, jmap, &tmpfig);
 			}
 	}
 	return (0);
@@ -81,8 +91,8 @@ int 	ft_contact(t_filler *filler, int imap, int jmap)
 
 void	ft_place_fig(t_filler *filler)
 {
-	int 	i;
-	int 	j;
+	int		i;
+	int		j;
 
 	ft_heapmap(filler);
 	filler->sum = 1000000;
