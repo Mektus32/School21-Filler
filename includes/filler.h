@@ -34,6 +34,8 @@ typedef struct		s_filler
 	char	**fig;
 	int		fig_x;
 	int		fig_y;
+    t_point mapcor;
+    int     sum;
 }					t_filler;
 
 void				ft_read_params(t_filler *filler, char *line);
