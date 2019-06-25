@@ -11,39 +11,37 @@
 /* ************************************************************************** */
 
 #include "filler.h"
+#define EN (filler->player ? 0 : -1)
 
-static	int		ft_algor(int i, int j, t_filler *filler, int **mapint)
+int		ft_ves(t_filler *filler, t_point tmp, int **mapint, int ves)
 {
-	int x;
-	int y;
-	int ves;
+	int		in;
+	int		jn;
+	int		jk;
 
-	ves = 1;
-	while (1)
+	while (++ves)
 	{
-		y = i - ves - 1;
-		while (++y <= i + ves)
-		{
-			x = j - ves - 1;
-			while (++x <= j + ves)
-			{
-				if (x < 0)
-					continue ;
-				else if (x >= filler->map_x || y < 0 ||
-				y >= filler->map_y)
-					break ;
-				else if (mapint[y][x] == (filler->player ? 0 : -1))
-					return (ves);
-			}
-		}
-		ves++;
+		in = ft_max(0, tmp.y - ves);
+		jn = ft_max(0, tmp.x - ves) - 1;
+		jk = ft_min(filler->map_y - 1, tmp.x + ves);
+		while (++jn <= jk)
+			if (mapint[jn][in] == EN ||
+			mapint[jn][ft_min(filler->map_x - 1, tmp.y + ves)] == EN)
+				return (ves);
+		jn = ft_max(0, tmp.x - ves);
+		in--;
+		while (++in <= ft_min(filler->map_x - 1, tmp.y + ves))
+			if (mapint[jn][in] == EN || mapint[jk][in] == EN)
+				return (ves);
 	}
+	return (ves);
 }
 
-int				**ft_heapmap(t_filler *filler, int **mapint)
+int		**ft_heapmap(t_filler *filler, int **mapint)
 {
 	int		i;
 	int		j;
+	t_point	tmp;
 
 	i = -1;
 	while (++i < filler->map_y)
@@ -51,7 +49,11 @@ int				**ft_heapmap(t_filler *filler, int **mapint)
 		j = -1;
 		while (++j < filler->map_x)
 			if (mapint[i][j] != 0 && mapint[i][j] != -1)
-				mapint[i][j] = ft_algor(i, j, filler, mapint);
+			{
+				tmp.y = j;
+				tmp.x = i;
+				mapint[i][j] = ft_ves(filler, tmp, mapint, 0);
+			}
 	}
 	return (mapint);
 }
