@@ -3,11 +3,12 @@ project(Filler C)
 
 set(CMAKE_C_STANDARD 11)
 
+include_directories(.)
 include_directories(ft_printf/includes)
 include_directories(includes)
 include_directories(libft/includes)
-include_directories(Visual/includes)
-include_directories(Visual/minilibx)
+include_directories(visual/includes)
+include_directories(visual/minilibx)
 
 add_executable(Filler
         ft_printf/includes/ft_printf.h
@@ -75,6 +76,7 @@ add_executable(Filler
         libft/ft_lstnew.c
         libft/ft_ltoa.c
         libft/ft_ltoa_base.c
+        libft/ft_max.c
         libft/ft_memalloc.c
         libft/ft_memccpy.c
         libft/ft_memchr.c
@@ -83,6 +85,7 @@ add_executable(Filler
         libft/ft_memdel.c
         libft/ft_memmove.c
         libft/ft_memset.c
+        libft/ft_min.c
         libft/ft_pow.c
         libft/ft_putchar.c
         libft/ft_putchar_fd.c
@@ -132,38 +135,23 @@ add_executable(Filler
         src/heapmap.c
         src/main.c
         src/read.c
-        Visual/includes/mlx.h
-        Visual/includes/visualizator.h
-        Visual/minilibx/test/main.c
-        Visual/minilibx/test/new_win.c
-        Visual/minilibx/mlx.h
-        Visual/minilibx/mlx_clear_window.c
-        Visual/minilibx/mlx_destroy_image.c
-        Visual/minilibx/mlx_destroy_window.c
-        Visual/minilibx/mlx_expose_hook.c
-        Visual/minilibx/mlx_flush_event.c
-        Visual/minilibx/mlx_get_color_value.c
-        Visual/minilibx/mlx_get_data_addr.c
-        Visual/minilibx/mlx_hook.c
-        Visual/minilibx/mlx_init.c
-        Visual/minilibx/mlx_int.h
-        Visual/minilibx/mlx_int_anti_resize_win.c
-        Visual/minilibx/mlx_int_do_nothing.c
-        Visual/minilibx/mlx_int_get_visual.c
-        Visual/minilibx/mlx_int_param_event.c
-        Visual/minilibx/mlx_int_set_win_event_mask.c
-        Visual/minilibx/mlx_int_str_to_wordtab.c
-        Visual/minilibx/mlx_int_wait_first_expose.c
-        Visual/minilibx/mlx_key_hook.c
-        Visual/minilibx/mlx_lib_xpm.c
-        Visual/minilibx/mlx_loop.c
-        Visual/minilibx/mlx_loop_hook.c
-        Visual/minilibx/mlx_mouse_hook.c
-        Visual/minilibx/mlx_new_image.c
-        Visual/minilibx/mlx_new_window.c
-        Visual/minilibx/mlx_pixel_put.c
-        Visual/minilibx/mlx_put_image_to_window.c
-        Visual/minilibx/mlx_rgb.c
-        Visual/minilibx/mlx_string_put.c
-        Visual/minilibx/mlx_xpm.c
-        Visual/src/main.c)
+        visual/includes/filler.h
+        visual/includes/ft_printf.h
+        visual/includes/get_next_line.h
+        visual/includes/libft.h
+        visual/includes/mlx.h
+        visual/includes/visualizator.h
+        visual/minilibx/font.c
+        visual/minilibx/mlx.h
+        visual/minilibx/mlx_init_loop.m
+        visual/minilibx/mlx_int.h
+        visual/minilibx/mlx_int_str_to_wordtab.c
+        visual/minilibx/mlx_new_image.m
+        visual/minilibx/mlx_new_window.h
+        visual/minilibx/mlx_new_window.m
+        visual/minilibx/mlx_rgb.c
+        visual/minilibx/mlx_shaders.c
+        visual/minilibx/mlx_xpm.c
+        visual/src/key_hook.c
+        visual/src/main.c
+        visual/src/read_params.c)

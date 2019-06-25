@@ -33,26 +33,52 @@ void	ft_define_map(t_params *p, char *line)
 void	ft_create_map(t_params *p, char *line)
 {
 	static	int i;
+	int 		j;
+
 	j = -1;
 	while (++j < p->map->map_x)
 		p->map->map[i] = ft_strcpy(p->map->map[i], &line[4]);
 	i++;
 	if (i == p->map->map_y)
+	{
 		i = 0;
+		p->map->read = 0;
+	}
+}
+
+void	ft_get_player(t_params *p, char *line)
+{
+	static	int i;
+	char 		*str;
+	int 		j;
+
+	if (i == 2)
+		return ;
+	str = ft_strrchr(line, '/');
+	j = 0;
+	while (str[j] != '\0' && str[j] != '.')
+		j++;
+	if (i == 0)
+		p->player1 = ft_strsub(str, 0, j);
+	else if (i == 1)
+		p->player2 = ft_strsub(str, 0, j);
+
 }
 
 void	ft_read_param(t_params *p)
 {
 	char	*line;
+
 	if (p->pause)
-		return (0);
-	while (get_next_line(0, &line) > 0)
+		return ;
+	while (get_next_line(0, &line) > 0 && p->map->read)
 	{
 		if (line[0] == '$')
 			ft_get_player(p, line);
-		else if (ft_ststr(line, "Plateau") && !p->map->map)
+		else if (ft_strstr(line, "Plateau") && !p->map->map)
 			ft_define_map(p, line);
 		else if ((line[0] == '0' || line[0] == '1') && p->map->map)
 			ft_create_map(p, line);
+		ft_strdel(&line);
 	}
 }

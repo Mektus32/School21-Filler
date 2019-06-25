@@ -36,6 +36,7 @@ typedef struct 		s_map
 	char 	**map;
 	int 	map_y;
 	int 	map_x;
+	int 	read;
 }					t_map;
 
 typedef struct		s_params
