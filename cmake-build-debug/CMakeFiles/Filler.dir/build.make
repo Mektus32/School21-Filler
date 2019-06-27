@@ -1565,408 +1565,174 @@ CMakeFiles/Filler.dir/src/read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/src/read.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/src/read.c -o CMakeFiles/Filler.dir/src/read.c.s
 
-CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.o: ../Visual/minilibx/test/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/test/main.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/test/main.c > CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/test/main.c -o CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.o: ../Visual/minilibx/test/new_win.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/test/new_win.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/test/new_win.c > CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/test/new_win.c -o CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.o: ../Visual/minilibx/mlx_clear_window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_clear_window.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_clear_window.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_clear_window.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.o: ../Visual/minilibx/mlx_destroy_image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_destroy_image.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_destroy_image.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_destroy_image.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.o: ../Visual/minilibx/mlx_destroy_window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_destroy_window.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_destroy_window.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_destroy_window.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.o: ../Visual/minilibx/mlx_expose_hook.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_expose_hook.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_expose_hook.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_expose_hook.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.o: ../Visual/minilibx/mlx_flush_event.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_flush_event.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_flush_event.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_flush_event.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.o: ../Visual/minilibx/mlx_get_color_value.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_get_color_value.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_get_color_value.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_get_color_value.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.o: ../Visual/minilibx/mlx_get_data_addr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_get_data_addr.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_get_data_addr.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_get_data_addr.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.o: ../Visual/minilibx/mlx_hook.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_hook.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_hook.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_hook.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.o: ../Visual/minilibx/mlx_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_init.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_init.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_init.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.o: ../Visual/minilibx/mlx_int_anti_resize_win.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_anti_resize_win.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_anti_resize_win.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_anti_resize_win.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.o: ../Visual/minilibx/mlx_int_do_nothing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_do_nothing.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_do_nothing.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_do_nothing.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.o: ../Visual/minilibx/mlx_int_get_visual.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_get_visual.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_get_visual.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_get_visual.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.o: ../Visual/minilibx/mlx_int_param_event.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_param_event.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_param_event.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_param_event.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.o: ../Visual/minilibx/mlx_int_set_win_event_mask.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_set_win_event_mask.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_set_win_event_mask.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_set_win_event_mask.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.o: ../Visual/minilibx/mlx_int_str_to_wordtab.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_str_to_wordtab.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_str_to_wordtab.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_str_to_wordtab.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.o: ../Visual/minilibx/mlx_int_wait_first_expose.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_wait_first_expose.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_wait_first_expose.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_wait_first_expose.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.o: ../Visual/minilibx/mlx_key_hook.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_key_hook.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_key_hook.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_key_hook.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.o: ../Visual/minilibx/mlx_lib_xpm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_lib_xpm.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_lib_xpm.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_lib_xpm.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.o: ../Visual/minilibx/mlx_loop.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_loop.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_loop.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_loop.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.o: ../Visual/minilibx/mlx_loop_hook.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_loop_hook.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_loop_hook.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_loop_hook.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.o: ../Visual/minilibx/mlx_mouse_hook.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_mouse_hook.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_mouse_hook.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_mouse_hook.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.o: ../Visual/minilibx/mlx_new_image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_new_image.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_new_image.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_new_image.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.o: ../Visual/minilibx/mlx_new_window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_new_window.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_new_window.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_new_window.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.o: ../Visual/minilibx/mlx_pixel_put.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_pixel_put.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_pixel_put.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_pixel_put.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.o: ../Visual/minilibx/mlx_put_image_to_window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_put_image_to_window.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_put_image_to_window.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_put_image_to_window.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.o: ../Visual/minilibx/mlx_rgb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_rgb.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_rgb.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_rgb.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.o: ../Visual/minilibx/mlx_string_put.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_string_put.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_string_put.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_string_put.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.s
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.o: ../Visual/minilibx/mlx_xpm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.o   -c /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_xpm.c
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_xpm.c > CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.i
-
-CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_xpm.c -o CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.s
-
-CMakeFiles/Filler.dir/Visual/src/main.c.o: CMakeFiles/Filler.dir/flags.make
-CMakeFiles/Filler.dir/Visual/src/main.c.o: ../Visual/src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/Filler.dir/Visual/src/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/Visual/src/main.c.o   -c /Users/ojessi/Desktop/Filler/Visual/src/main.c
-
-CMakeFiles/Filler.dir/Visual/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/Visual/src/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/Visual/src/main.c > CMakeFiles/Filler.dir/Visual/src/main.c.i
-
-CMakeFiles/Filler.dir/Visual/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/Visual/src/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/Visual/src/main.c -o CMakeFiles/Filler.dir/Visual/src/main.c.s
+CMakeFiles/Filler.dir/visual/minilibx/font.c.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/visual/minilibx/font.c.o: ../visual/minilibx/font.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/Filler.dir/visual/minilibx/font.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/visual/minilibx/font.c.o   -c /Users/ojessi/Desktop/Filler/visual/minilibx/font.c
+
+CMakeFiles/Filler.dir/visual/minilibx/font.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/visual/minilibx/font.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/visual/minilibx/font.c > CMakeFiles/Filler.dir/visual/minilibx/font.c.i
+
+CMakeFiles/Filler.dir/visual/minilibx/font.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/visual/minilibx/font.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/visual/minilibx/font.c -o CMakeFiles/Filler.dir/visual/minilibx/font.c.s
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.o: ../visual/minilibx/mlx_init_loop.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.o   -c /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_init_loop.m
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_init_loop.m > CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.i
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_init_loop.m -o CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.s
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.o: ../visual/minilibx/mlx_int_str_to_wordtab.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.o   -c /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_int_str_to_wordtab.c
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_int_str_to_wordtab.c > CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.i
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_int_str_to_wordtab.c -o CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.s
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.o: ../visual/minilibx/mlx_new_image.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.o   -c /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_new_image.m
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_new_image.m > CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.i
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_new_image.m -o CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.s
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.o: ../visual/minilibx/mlx_new_window.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.o   -c /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_new_window.m
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_new_window.m > CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.i
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_new_window.m -o CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.s
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.o: ../visual/minilibx/mlx_rgb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.o   -c /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_rgb.c
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_rgb.c > CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.i
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_rgb.c -o CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.s
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.o: ../visual/minilibx/mlx_shaders.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.o   -c /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_shaders.c
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_shaders.c > CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.i
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_shaders.c -o CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.s
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.o: ../visual/minilibx/mlx_xpm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.o   -c /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_xpm.c
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_xpm.c > CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.i
+
+CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/visual/minilibx/mlx_xpm.c -o CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.s
+
+CMakeFiles/Filler.dir/visual/src/key_hook.c.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/visual/src/key_hook.c.o: ../visual/src/key_hook.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/Filler.dir/visual/src/key_hook.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/visual/src/key_hook.c.o   -c /Users/ojessi/Desktop/Filler/visual/src/key_hook.c
+
+CMakeFiles/Filler.dir/visual/src/key_hook.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/visual/src/key_hook.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/visual/src/key_hook.c > CMakeFiles/Filler.dir/visual/src/key_hook.c.i
+
+CMakeFiles/Filler.dir/visual/src/key_hook.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/visual/src/key_hook.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/visual/src/key_hook.c -o CMakeFiles/Filler.dir/visual/src/key_hook.c.s
+
+CMakeFiles/Filler.dir/visual/src/main.c.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/visual/src/main.c.o: ../visual/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/Filler.dir/visual/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/visual/src/main.c.o   -c /Users/ojessi/Desktop/Filler/visual/src/main.c
+
+CMakeFiles/Filler.dir/visual/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/visual/src/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/visual/src/main.c > CMakeFiles/Filler.dir/visual/src/main.c.i
+
+CMakeFiles/Filler.dir/visual/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/visual/src/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/visual/src/main.c -o CMakeFiles/Filler.dir/visual/src/main.c.s
+
+CMakeFiles/Filler.dir/visual/src/read_params.c.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/visual/src/read_params.c.o: ../visual/src/read_params.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/Filler.dir/visual/src/read_params.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/visual/src/read_params.c.o   -c /Users/ojessi/Desktop/Filler/visual/src/read_params.c
+
+CMakeFiles/Filler.dir/visual/src/read_params.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/visual/src/read_params.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/visual/src/read_params.c > CMakeFiles/Filler.dir/visual/src/read_params.c.i
+
+CMakeFiles/Filler.dir/visual/src/read_params.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/visual/src/read_params.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/visual/src/read_params.c -o CMakeFiles/Filler.dir/visual/src/read_params.c.s
+
+CMakeFiles/Filler.dir/visual/src/draw.c.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/visual/src/draw.c.o: ../visual/src/draw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/Filler.dir/visual/src/draw.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/visual/src/draw.c.o   -c /Users/ojessi/Desktop/Filler/visual/src/draw.c
+
+CMakeFiles/Filler.dir/visual/src/draw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/visual/src/draw.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/visual/src/draw.c > CMakeFiles/Filler.dir/visual/src/draw.c.i
+
+CMakeFiles/Filler.dir/visual/src/draw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/visual/src/draw.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/visual/src/draw.c -o CMakeFiles/Filler.dir/visual/src/draw.c.s
+
+CMakeFiles/Filler.dir/visual/src/draw2.c.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/visual/src/draw2.c.o: ../visual/src/draw2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/Filler.dir/visual/src/draw2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/visual/src/draw2.c.o   -c /Users/ojessi/Desktop/Filler/visual/src/draw2.c
+
+CMakeFiles/Filler.dir/visual/src/draw2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/visual/src/draw2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ojessi/Desktop/Filler/visual/src/draw2.c > CMakeFiles/Filler.dir/visual/src/draw2.c.i
+
+CMakeFiles/Filler.dir/visual/src/draw2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/visual/src/draw2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ojessi/Desktop/Filler/visual/src/draw2.c -o CMakeFiles/Filler.dir/visual/src/draw2.c.s
 
 # Object files for target Filler
 Filler_OBJECTS = \
@@ -2086,37 +1852,19 @@ Filler_OBJECTS = \
 "CMakeFiles/Filler.dir/src/heapmap.c.o" \
 "CMakeFiles/Filler.dir/src/main.c.o" \
 "CMakeFiles/Filler.dir/src/read.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.o" \
-"CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.o" \
-"CMakeFiles/Filler.dir/Visual/src/main.c.o"
+"CMakeFiles/Filler.dir/visual/minilibx/font.c.o" \
+"CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.o" \
+"CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.o" \
+"CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.o" \
+"CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.o" \
+"CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.o" \
+"CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.o" \
+"CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.o" \
+"CMakeFiles/Filler.dir/visual/src/key_hook.c.o" \
+"CMakeFiles/Filler.dir/visual/src/main.c.o" \
+"CMakeFiles/Filler.dir/visual/src/read_params.c.o" \
+"CMakeFiles/Filler.dir/visual/src/draw.c.o" \
+"CMakeFiles/Filler.dir/visual/src/draw2.c.o"
 
 # External object files for target Filler
 Filler_EXTERNAL_OBJECTS =
@@ -2237,40 +1985,22 @@ Filler: CMakeFiles/Filler.dir/src/algor.c.o
 Filler: CMakeFiles/Filler.dir/src/heapmap.c.o
 Filler: CMakeFiles/Filler.dir/src/main.c.o
 Filler: CMakeFiles/Filler.dir/src/read.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.o
-Filler: CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.o
-Filler: CMakeFiles/Filler.dir/Visual/src/main.c.o
+Filler: CMakeFiles/Filler.dir/visual/minilibx/font.c.o
+Filler: CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.o
+Filler: CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.o
+Filler: CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.o
+Filler: CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.o
+Filler: CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.o
+Filler: CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.o
+Filler: CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.o
+Filler: CMakeFiles/Filler.dir/visual/src/key_hook.c.o
+Filler: CMakeFiles/Filler.dir/visual/src/main.c.o
+Filler: CMakeFiles/Filler.dir/visual/src/read_params.c.o
+Filler: CMakeFiles/Filler.dir/visual/src/draw.c.o
+Filler: CMakeFiles/Filler.dir/visual/src/draw2.c.o
 Filler: CMakeFiles/Filler.dir/build.make
 Filler: CMakeFiles/Filler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Linking C executable Filler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Linking C executable Filler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Filler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,14 +1,20 @@
 cmake_minimum_required(VERSION 3.14)
-project(Filler C)
+project(Filler)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
+include_directories(ft_printf)
 include_directories(ft_printf/includes)
+include_directories(ft_printf/src)
 include_directories(includes)
+include_directories(libft)
 include_directories(libft/includes)
+include_directories(src)
+include_directories(visual)
 include_directories(visual/includes)
 include_directories(visual/minilibx)
+include_directories(visual/src)
 
 add_executable(Filler
         ft_printf/includes/ft_printf.h
@@ -76,7 +82,6 @@ add_executable(Filler
         libft/ft_lstnew.c
         libft/ft_ltoa.c
         libft/ft_ltoa_base.c
-        libft/ft_max.c
         libft/ft_memalloc.c
         libft/ft_memccpy.c
         libft/ft_memchr.c
@@ -85,7 +90,6 @@ add_executable(Filler
         libft/ft_memdel.c
         libft/ft_memmove.c
         libft/ft_memset.c
-        libft/ft_min.c
         libft/ft_pow.c
         libft/ft_putchar.c
         libft/ft_putchar_fd.c
@@ -131,6 +135,18 @@ add_executable(Filler
         libft/ft_ultoa.c
         libft/ft_ultoa_base.c
         libft/get_next_line.c
+        resources/maps/map00
+        resources/maps/map01
+        resources/maps/map02
+        resources/players/abanlin.filler
+        resources/players/carli.filler
+        resources/players/champely.filler
+        resources/players/grati.filler
+        resources/players/hcao.filler
+        resources/players/superjeannot.filler
+        resources/filler.trace
+        resources/filler_vm
+        resources/test
         src/algor.c
         src/heapmap.c
         src/main.c
@@ -154,4 +170,6 @@ add_executable(Filler
         visual/minilibx/mlx_xpm.c
         visual/src/key_hook.c
         visual/src/main.c
-        visual/src/read_params.c)
+        visual/src/read_params.c
+        visual/src/draw.c
+        visual/src/draw2.c)

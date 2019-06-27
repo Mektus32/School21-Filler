@@ -44,11 +44,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/ojessi/Desktop/Filler/."/>
+					<Add directory="/Users/ojessi/Desktop/Filler/ft_printf"/>
 					<Add directory="/Users/ojessi/Desktop/Filler/ft_printf/includes"/>
+					<Add directory="/Users/ojessi/Desktop/Filler/ft_printf/src"/>
 					<Add directory="/Users/ojessi/Desktop/Filler/includes"/>
+					<Add directory="/Users/ojessi/Desktop/Filler/libft"/>
 					<Add directory="/Users/ojessi/Desktop/Filler/libft/includes"/>
-					<Add directory="/Users/ojessi/Desktop/Filler/Visual/includes"/>
-					<Add directory="/Users/ojessi/Desktop/Filler/Visual/minilibx"/>
+					<Add directory="/Users/ojessi/Desktop/Filler/src"/>
+					<Add directory="/Users/ojessi/Desktop/Filler/visual"/>
+					<Add directory="/Users/ojessi/Desktop/Filler/visual/includes"/>
+					<Add directory="/Users/ojessi/Desktop/Filler/visual/minilibx"/>
+					<Add directory="/Users/ojessi/Desktop/Filler/visual/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -70,11 +78,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/ojessi/Desktop/Filler/."/>
+					<Add directory="/Users/ojessi/Desktop/Filler/ft_printf"/>
 					<Add directory="/Users/ojessi/Desktop/Filler/ft_printf/includes"/>
+					<Add directory="/Users/ojessi/Desktop/Filler/ft_printf/src"/>
 					<Add directory="/Users/ojessi/Desktop/Filler/includes"/>
+					<Add directory="/Users/ojessi/Desktop/Filler/libft"/>
 					<Add directory="/Users/ojessi/Desktop/Filler/libft/includes"/>
-					<Add directory="/Users/ojessi/Desktop/Filler/Visual/includes"/>
-					<Add directory="/Users/ojessi/Desktop/Filler/Visual/minilibx"/>
+					<Add directory="/Users/ojessi/Desktop/Filler/src"/>
+					<Add directory="/Users/ojessi/Desktop/Filler/visual"/>
+					<Add directory="/Users/ojessi/Desktop/Filler/visual/includes"/>
+					<Add directory="/Users/ojessi/Desktop/Filler/visual/minilibx"/>
+					<Add directory="/Users/ojessi/Desktop/Filler/visual/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -90,111 +106,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/includes/mlx.h">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/includes/visualizator.h">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx.h">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_clear_window.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_destroy_image.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_destroy_window.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_expose_hook.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_flush_event.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_get_color_value.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_get_data_addr.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_hook.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_init.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int.h">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_anti_resize_win.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_do_nothing.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_get_visual.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_param_event.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_set_win_event_mask.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_str_to_wordtab.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_int_wait_first_expose.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_key_hook.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_lib_xpm.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_loop.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_loop_hook.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_mouse_hook.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_new_image.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_new_window.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_pixel_put.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_put_image_to_window.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_rgb.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_string_put.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/mlx_xpm.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/test/main.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/minilibx/test/new_win.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/Visual/src/main.c">
-			<Option target="Filler"/>
-		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/includes/ft_printf.h">
 			<Option target="Filler"/>
 		</Unit>
@@ -549,6 +460,42 @@
 		<Unit filename="/Users/ojessi/Desktop/Filler/libft/includes/libft.h">
 			<Option target="Filler"/>
 		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/resources/filler.trace">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/resources/filler_vm">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/resources/maps/map00">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/resources/maps/map01">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/resources/maps/map02">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/resources/players/abanlin.filler">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/resources/players/carli.filler">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/resources/players/champely.filler">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/resources/players/grati.filler">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/resources/players/hcao.filler">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/resources/players/superjeannot.filler">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/resources/test">
+			<Option target="Filler"/>
+		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/src/algor.c">
 			<Option target="Filler"/>
 		</Unit>
@@ -559,6 +506,72 @@
 			<Option target="Filler"/>
 		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/src/read.c">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/includes/filler.h">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/includes/ft_printf.h">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/includes/get_next_line.h">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/includes/libft.h">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/includes/mlx.h">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/includes/visualizator.h">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/minilibx/font.c">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/minilibx/mlx.h">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/minilibx/mlx_init_loop.m">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/minilibx/mlx_int.h">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/minilibx/mlx_int_str_to_wordtab.c">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/minilibx/mlx_new_image.m">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/minilibx/mlx_new_window.h">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/minilibx/mlx_new_window.m">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/minilibx/mlx_rgb.c">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/minilibx/mlx_shaders.c">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/minilibx/mlx_xpm.c">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/draw.c">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/draw2.c">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/key_hook.c">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/main.c">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/read_params.c">
 			<Option target="Filler"/>
 		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/CMakeLists.txt">

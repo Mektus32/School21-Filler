@@ -18,8 +18,10 @@
 # include "get_next_line.h"
 # include "ft_printf.h"
 # include "filler.h"
-# define WIDTH 1200
-# define HEIGHT 600
+# define WIDTHW 1200
+# define HEIGHTW 600
+# define WIDTHI 600
+# define HEIGHTI 500
 # define WINNAME "Filler visualizator"
 
 typedef	struct		s_image
@@ -36,21 +38,31 @@ typedef struct 		s_map
 	char 	**map;
 	int 	map_y;
 	int 	map_x;
-	int 	read;
 }					t_map;
+
+typedef	struct		s_player
+{
+	char	*name;
+	int 	color;
+	int 	score;
+	int 	bgcolor;
+}					t_player;
 
 typedef struct		s_params
 {
-	void	*mlx_ptr;
-	void	*win_ptr;
-	t_image	*image;
-	t_map	*map;
-	int 	pause;
-	char	*player1;
-	char	*player2;
+	void		*mlx_ptr;
+	void		*win_ptr;
+	t_image		*image;
+	t_map		*map;
+	int 		pause;
+	t_player	player1;
+	t_player	player2;
 }					t_params;
 
 void				ft_key_hook(t_params *p);
 void				ft_read_param(t_params *p);
+void				ft_draw(t_params *p);
+void				ft_calc_score(t_params *p);
+void				ft_draw_box(t_params *p, int color);
 
 #endif

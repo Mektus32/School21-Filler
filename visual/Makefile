@@ -18,12 +18,16 @@ NAME = visualizator
 SRC =	main.c \
 		key_hook.c \
 		read_params.c \
+		draw.c \
+		smth.c \
+		draw2.c
 
 OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))
 
 # compiler
 CC = gcc
-CFLAGS = -Wextra -Werror -Wall -g
+#CFLAGS = -Wextra -Werror -Wall -g
+CFLAGS = -g
 
 # mlx library
 MLX = ./minilibx/

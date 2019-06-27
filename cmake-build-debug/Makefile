@@ -123,843 +123,6 @@ Filler/fast:
 	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/build
 .PHONY : Filler/fast
 
-Visual/minilibx/mlx_clear_window.o: Visual/minilibx/mlx_clear_window.c.o
-
-.PHONY : Visual/minilibx/mlx_clear_window.o
-
-# target to build an object file
-Visual/minilibx/mlx_clear_window.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.o
-.PHONY : Visual/minilibx/mlx_clear_window.c.o
-
-Visual/minilibx/mlx_clear_window.i: Visual/minilibx/mlx_clear_window.c.i
-
-.PHONY : Visual/minilibx/mlx_clear_window.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_clear_window.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.i
-.PHONY : Visual/minilibx/mlx_clear_window.c.i
-
-Visual/minilibx/mlx_clear_window.s: Visual/minilibx/mlx_clear_window.c.s
-
-.PHONY : Visual/minilibx/mlx_clear_window.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_clear_window.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_clear_window.c.s
-.PHONY : Visual/minilibx/mlx_clear_window.c.s
-
-Visual/minilibx/mlx_destroy_image.o: Visual/minilibx/mlx_destroy_image.c.o
-
-.PHONY : Visual/minilibx/mlx_destroy_image.o
-
-# target to build an object file
-Visual/minilibx/mlx_destroy_image.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.o
-.PHONY : Visual/minilibx/mlx_destroy_image.c.o
-
-Visual/minilibx/mlx_destroy_image.i: Visual/minilibx/mlx_destroy_image.c.i
-
-.PHONY : Visual/minilibx/mlx_destroy_image.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_destroy_image.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.i
-.PHONY : Visual/minilibx/mlx_destroy_image.c.i
-
-Visual/minilibx/mlx_destroy_image.s: Visual/minilibx/mlx_destroy_image.c.s
-
-.PHONY : Visual/minilibx/mlx_destroy_image.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_destroy_image.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_image.c.s
-.PHONY : Visual/minilibx/mlx_destroy_image.c.s
-
-Visual/minilibx/mlx_destroy_window.o: Visual/minilibx/mlx_destroy_window.c.o
-
-.PHONY : Visual/minilibx/mlx_destroy_window.o
-
-# target to build an object file
-Visual/minilibx/mlx_destroy_window.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.o
-.PHONY : Visual/minilibx/mlx_destroy_window.c.o
-
-Visual/minilibx/mlx_destroy_window.i: Visual/minilibx/mlx_destroy_window.c.i
-
-.PHONY : Visual/minilibx/mlx_destroy_window.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_destroy_window.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.i
-.PHONY : Visual/minilibx/mlx_destroy_window.c.i
-
-Visual/minilibx/mlx_destroy_window.s: Visual/minilibx/mlx_destroy_window.c.s
-
-.PHONY : Visual/minilibx/mlx_destroy_window.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_destroy_window.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_destroy_window.c.s
-.PHONY : Visual/minilibx/mlx_destroy_window.c.s
-
-Visual/minilibx/mlx_expose_hook.o: Visual/minilibx/mlx_expose_hook.c.o
-
-.PHONY : Visual/minilibx/mlx_expose_hook.o
-
-# target to build an object file
-Visual/minilibx/mlx_expose_hook.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.o
-.PHONY : Visual/minilibx/mlx_expose_hook.c.o
-
-Visual/minilibx/mlx_expose_hook.i: Visual/minilibx/mlx_expose_hook.c.i
-
-.PHONY : Visual/minilibx/mlx_expose_hook.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_expose_hook.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.i
-.PHONY : Visual/minilibx/mlx_expose_hook.c.i
-
-Visual/minilibx/mlx_expose_hook.s: Visual/minilibx/mlx_expose_hook.c.s
-
-.PHONY : Visual/minilibx/mlx_expose_hook.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_expose_hook.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_expose_hook.c.s
-.PHONY : Visual/minilibx/mlx_expose_hook.c.s
-
-Visual/minilibx/mlx_flush_event.o: Visual/minilibx/mlx_flush_event.c.o
-
-.PHONY : Visual/minilibx/mlx_flush_event.o
-
-# target to build an object file
-Visual/minilibx/mlx_flush_event.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.o
-.PHONY : Visual/minilibx/mlx_flush_event.c.o
-
-Visual/minilibx/mlx_flush_event.i: Visual/minilibx/mlx_flush_event.c.i
-
-.PHONY : Visual/minilibx/mlx_flush_event.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_flush_event.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.i
-.PHONY : Visual/minilibx/mlx_flush_event.c.i
-
-Visual/minilibx/mlx_flush_event.s: Visual/minilibx/mlx_flush_event.c.s
-
-.PHONY : Visual/minilibx/mlx_flush_event.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_flush_event.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_flush_event.c.s
-.PHONY : Visual/minilibx/mlx_flush_event.c.s
-
-Visual/minilibx/mlx_get_color_value.o: Visual/minilibx/mlx_get_color_value.c.o
-
-.PHONY : Visual/minilibx/mlx_get_color_value.o
-
-# target to build an object file
-Visual/minilibx/mlx_get_color_value.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.o
-.PHONY : Visual/minilibx/mlx_get_color_value.c.o
-
-Visual/minilibx/mlx_get_color_value.i: Visual/minilibx/mlx_get_color_value.c.i
-
-.PHONY : Visual/minilibx/mlx_get_color_value.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_get_color_value.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.i
-.PHONY : Visual/minilibx/mlx_get_color_value.c.i
-
-Visual/minilibx/mlx_get_color_value.s: Visual/minilibx/mlx_get_color_value.c.s
-
-.PHONY : Visual/minilibx/mlx_get_color_value.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_get_color_value.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_color_value.c.s
-.PHONY : Visual/minilibx/mlx_get_color_value.c.s
-
-Visual/minilibx/mlx_get_data_addr.o: Visual/minilibx/mlx_get_data_addr.c.o
-
-.PHONY : Visual/minilibx/mlx_get_data_addr.o
-
-# target to build an object file
-Visual/minilibx/mlx_get_data_addr.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.o
-.PHONY : Visual/minilibx/mlx_get_data_addr.c.o
-
-Visual/minilibx/mlx_get_data_addr.i: Visual/minilibx/mlx_get_data_addr.c.i
-
-.PHONY : Visual/minilibx/mlx_get_data_addr.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_get_data_addr.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.i
-.PHONY : Visual/minilibx/mlx_get_data_addr.c.i
-
-Visual/minilibx/mlx_get_data_addr.s: Visual/minilibx/mlx_get_data_addr.c.s
-
-.PHONY : Visual/minilibx/mlx_get_data_addr.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_get_data_addr.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_get_data_addr.c.s
-.PHONY : Visual/minilibx/mlx_get_data_addr.c.s
-
-Visual/minilibx/mlx_hook.o: Visual/minilibx/mlx_hook.c.o
-
-.PHONY : Visual/minilibx/mlx_hook.o
-
-# target to build an object file
-Visual/minilibx/mlx_hook.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.o
-.PHONY : Visual/minilibx/mlx_hook.c.o
-
-Visual/minilibx/mlx_hook.i: Visual/minilibx/mlx_hook.c.i
-
-.PHONY : Visual/minilibx/mlx_hook.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_hook.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.i
-.PHONY : Visual/minilibx/mlx_hook.c.i
-
-Visual/minilibx/mlx_hook.s: Visual/minilibx/mlx_hook.c.s
-
-.PHONY : Visual/minilibx/mlx_hook.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_hook.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_hook.c.s
-.PHONY : Visual/minilibx/mlx_hook.c.s
-
-Visual/minilibx/mlx_init.o: Visual/minilibx/mlx_init.c.o
-
-.PHONY : Visual/minilibx/mlx_init.o
-
-# target to build an object file
-Visual/minilibx/mlx_init.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.o
-.PHONY : Visual/minilibx/mlx_init.c.o
-
-Visual/minilibx/mlx_init.i: Visual/minilibx/mlx_init.c.i
-
-.PHONY : Visual/minilibx/mlx_init.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_init.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.i
-.PHONY : Visual/minilibx/mlx_init.c.i
-
-Visual/minilibx/mlx_init.s: Visual/minilibx/mlx_init.c.s
-
-.PHONY : Visual/minilibx/mlx_init.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_init.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_init.c.s
-.PHONY : Visual/minilibx/mlx_init.c.s
-
-Visual/minilibx/mlx_int_anti_resize_win.o: Visual/minilibx/mlx_int_anti_resize_win.c.o
-
-.PHONY : Visual/minilibx/mlx_int_anti_resize_win.o
-
-# target to build an object file
-Visual/minilibx/mlx_int_anti_resize_win.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.o
-.PHONY : Visual/minilibx/mlx_int_anti_resize_win.c.o
-
-Visual/minilibx/mlx_int_anti_resize_win.i: Visual/minilibx/mlx_int_anti_resize_win.c.i
-
-.PHONY : Visual/minilibx/mlx_int_anti_resize_win.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_int_anti_resize_win.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.i
-.PHONY : Visual/minilibx/mlx_int_anti_resize_win.c.i
-
-Visual/minilibx/mlx_int_anti_resize_win.s: Visual/minilibx/mlx_int_anti_resize_win.c.s
-
-.PHONY : Visual/minilibx/mlx_int_anti_resize_win.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_int_anti_resize_win.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_anti_resize_win.c.s
-.PHONY : Visual/minilibx/mlx_int_anti_resize_win.c.s
-
-Visual/minilibx/mlx_int_do_nothing.o: Visual/minilibx/mlx_int_do_nothing.c.o
-
-.PHONY : Visual/minilibx/mlx_int_do_nothing.o
-
-# target to build an object file
-Visual/minilibx/mlx_int_do_nothing.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.o
-.PHONY : Visual/minilibx/mlx_int_do_nothing.c.o
-
-Visual/minilibx/mlx_int_do_nothing.i: Visual/minilibx/mlx_int_do_nothing.c.i
-
-.PHONY : Visual/minilibx/mlx_int_do_nothing.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_int_do_nothing.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.i
-.PHONY : Visual/minilibx/mlx_int_do_nothing.c.i
-
-Visual/minilibx/mlx_int_do_nothing.s: Visual/minilibx/mlx_int_do_nothing.c.s
-
-.PHONY : Visual/minilibx/mlx_int_do_nothing.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_int_do_nothing.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_do_nothing.c.s
-.PHONY : Visual/minilibx/mlx_int_do_nothing.c.s
-
-Visual/minilibx/mlx_int_get_visual.o: Visual/minilibx/mlx_int_get_visual.c.o
-
-.PHONY : Visual/minilibx/mlx_int_get_visual.o
-
-# target to build an object file
-Visual/minilibx/mlx_int_get_visual.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.o
-.PHONY : Visual/minilibx/mlx_int_get_visual.c.o
-
-Visual/minilibx/mlx_int_get_visual.i: Visual/minilibx/mlx_int_get_visual.c.i
-
-.PHONY : Visual/minilibx/mlx_int_get_visual.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_int_get_visual.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.i
-.PHONY : Visual/minilibx/mlx_int_get_visual.c.i
-
-Visual/minilibx/mlx_int_get_visual.s: Visual/minilibx/mlx_int_get_visual.c.s
-
-.PHONY : Visual/minilibx/mlx_int_get_visual.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_int_get_visual.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_get_visual.c.s
-.PHONY : Visual/minilibx/mlx_int_get_visual.c.s
-
-Visual/minilibx/mlx_int_param_event.o: Visual/minilibx/mlx_int_param_event.c.o
-
-.PHONY : Visual/minilibx/mlx_int_param_event.o
-
-# target to build an object file
-Visual/minilibx/mlx_int_param_event.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.o
-.PHONY : Visual/minilibx/mlx_int_param_event.c.o
-
-Visual/minilibx/mlx_int_param_event.i: Visual/minilibx/mlx_int_param_event.c.i
-
-.PHONY : Visual/minilibx/mlx_int_param_event.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_int_param_event.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.i
-.PHONY : Visual/minilibx/mlx_int_param_event.c.i
-
-Visual/minilibx/mlx_int_param_event.s: Visual/minilibx/mlx_int_param_event.c.s
-
-.PHONY : Visual/minilibx/mlx_int_param_event.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_int_param_event.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_param_event.c.s
-.PHONY : Visual/minilibx/mlx_int_param_event.c.s
-
-Visual/minilibx/mlx_int_set_win_event_mask.o: Visual/minilibx/mlx_int_set_win_event_mask.c.o
-
-.PHONY : Visual/minilibx/mlx_int_set_win_event_mask.o
-
-# target to build an object file
-Visual/minilibx/mlx_int_set_win_event_mask.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.o
-.PHONY : Visual/minilibx/mlx_int_set_win_event_mask.c.o
-
-Visual/minilibx/mlx_int_set_win_event_mask.i: Visual/minilibx/mlx_int_set_win_event_mask.c.i
-
-.PHONY : Visual/minilibx/mlx_int_set_win_event_mask.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_int_set_win_event_mask.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.i
-.PHONY : Visual/minilibx/mlx_int_set_win_event_mask.c.i
-
-Visual/minilibx/mlx_int_set_win_event_mask.s: Visual/minilibx/mlx_int_set_win_event_mask.c.s
-
-.PHONY : Visual/minilibx/mlx_int_set_win_event_mask.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_int_set_win_event_mask.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_set_win_event_mask.c.s
-.PHONY : Visual/minilibx/mlx_int_set_win_event_mask.c.s
-
-Visual/minilibx/mlx_int_str_to_wordtab.o: Visual/minilibx/mlx_int_str_to_wordtab.c.o
-
-.PHONY : Visual/minilibx/mlx_int_str_to_wordtab.o
-
-# target to build an object file
-Visual/minilibx/mlx_int_str_to_wordtab.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.o
-.PHONY : Visual/minilibx/mlx_int_str_to_wordtab.c.o
-
-Visual/minilibx/mlx_int_str_to_wordtab.i: Visual/minilibx/mlx_int_str_to_wordtab.c.i
-
-.PHONY : Visual/minilibx/mlx_int_str_to_wordtab.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_int_str_to_wordtab.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.i
-.PHONY : Visual/minilibx/mlx_int_str_to_wordtab.c.i
-
-Visual/minilibx/mlx_int_str_to_wordtab.s: Visual/minilibx/mlx_int_str_to_wordtab.c.s
-
-.PHONY : Visual/minilibx/mlx_int_str_to_wordtab.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_int_str_to_wordtab.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_str_to_wordtab.c.s
-.PHONY : Visual/minilibx/mlx_int_str_to_wordtab.c.s
-
-Visual/minilibx/mlx_int_wait_first_expose.o: Visual/minilibx/mlx_int_wait_first_expose.c.o
-
-.PHONY : Visual/minilibx/mlx_int_wait_first_expose.o
-
-# target to build an object file
-Visual/minilibx/mlx_int_wait_first_expose.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.o
-.PHONY : Visual/minilibx/mlx_int_wait_first_expose.c.o
-
-Visual/minilibx/mlx_int_wait_first_expose.i: Visual/minilibx/mlx_int_wait_first_expose.c.i
-
-.PHONY : Visual/minilibx/mlx_int_wait_first_expose.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_int_wait_first_expose.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.i
-.PHONY : Visual/minilibx/mlx_int_wait_first_expose.c.i
-
-Visual/minilibx/mlx_int_wait_first_expose.s: Visual/minilibx/mlx_int_wait_first_expose.c.s
-
-.PHONY : Visual/minilibx/mlx_int_wait_first_expose.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_int_wait_first_expose.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_int_wait_first_expose.c.s
-.PHONY : Visual/minilibx/mlx_int_wait_first_expose.c.s
-
-Visual/minilibx/mlx_key_hook.o: Visual/minilibx/mlx_key_hook.c.o
-
-.PHONY : Visual/minilibx/mlx_key_hook.o
-
-# target to build an object file
-Visual/minilibx/mlx_key_hook.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.o
-.PHONY : Visual/minilibx/mlx_key_hook.c.o
-
-Visual/minilibx/mlx_key_hook.i: Visual/minilibx/mlx_key_hook.c.i
-
-.PHONY : Visual/minilibx/mlx_key_hook.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_key_hook.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.i
-.PHONY : Visual/minilibx/mlx_key_hook.c.i
-
-Visual/minilibx/mlx_key_hook.s: Visual/minilibx/mlx_key_hook.c.s
-
-.PHONY : Visual/minilibx/mlx_key_hook.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_key_hook.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_key_hook.c.s
-.PHONY : Visual/minilibx/mlx_key_hook.c.s
-
-Visual/minilibx/mlx_lib_xpm.o: Visual/minilibx/mlx_lib_xpm.c.o
-
-.PHONY : Visual/minilibx/mlx_lib_xpm.o
-
-# target to build an object file
-Visual/minilibx/mlx_lib_xpm.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.o
-.PHONY : Visual/minilibx/mlx_lib_xpm.c.o
-
-Visual/minilibx/mlx_lib_xpm.i: Visual/minilibx/mlx_lib_xpm.c.i
-
-.PHONY : Visual/minilibx/mlx_lib_xpm.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_lib_xpm.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.i
-.PHONY : Visual/minilibx/mlx_lib_xpm.c.i
-
-Visual/minilibx/mlx_lib_xpm.s: Visual/minilibx/mlx_lib_xpm.c.s
-
-.PHONY : Visual/minilibx/mlx_lib_xpm.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_lib_xpm.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_lib_xpm.c.s
-.PHONY : Visual/minilibx/mlx_lib_xpm.c.s
-
-Visual/minilibx/mlx_loop.o: Visual/minilibx/mlx_loop.c.o
-
-.PHONY : Visual/minilibx/mlx_loop.o
-
-# target to build an object file
-Visual/minilibx/mlx_loop.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.o
-.PHONY : Visual/minilibx/mlx_loop.c.o
-
-Visual/minilibx/mlx_loop.i: Visual/minilibx/mlx_loop.c.i
-
-.PHONY : Visual/minilibx/mlx_loop.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_loop.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.i
-.PHONY : Visual/minilibx/mlx_loop.c.i
-
-Visual/minilibx/mlx_loop.s: Visual/minilibx/mlx_loop.c.s
-
-.PHONY : Visual/minilibx/mlx_loop.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_loop.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop.c.s
-.PHONY : Visual/minilibx/mlx_loop.c.s
-
-Visual/minilibx/mlx_loop_hook.o: Visual/minilibx/mlx_loop_hook.c.o
-
-.PHONY : Visual/minilibx/mlx_loop_hook.o
-
-# target to build an object file
-Visual/minilibx/mlx_loop_hook.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.o
-.PHONY : Visual/minilibx/mlx_loop_hook.c.o
-
-Visual/minilibx/mlx_loop_hook.i: Visual/minilibx/mlx_loop_hook.c.i
-
-.PHONY : Visual/minilibx/mlx_loop_hook.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_loop_hook.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.i
-.PHONY : Visual/minilibx/mlx_loop_hook.c.i
-
-Visual/minilibx/mlx_loop_hook.s: Visual/minilibx/mlx_loop_hook.c.s
-
-.PHONY : Visual/minilibx/mlx_loop_hook.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_loop_hook.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_loop_hook.c.s
-.PHONY : Visual/minilibx/mlx_loop_hook.c.s
-
-Visual/minilibx/mlx_mouse_hook.o: Visual/minilibx/mlx_mouse_hook.c.o
-
-.PHONY : Visual/minilibx/mlx_mouse_hook.o
-
-# target to build an object file
-Visual/minilibx/mlx_mouse_hook.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.o
-.PHONY : Visual/minilibx/mlx_mouse_hook.c.o
-
-Visual/minilibx/mlx_mouse_hook.i: Visual/minilibx/mlx_mouse_hook.c.i
-
-.PHONY : Visual/minilibx/mlx_mouse_hook.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_mouse_hook.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.i
-.PHONY : Visual/minilibx/mlx_mouse_hook.c.i
-
-Visual/minilibx/mlx_mouse_hook.s: Visual/minilibx/mlx_mouse_hook.c.s
-
-.PHONY : Visual/minilibx/mlx_mouse_hook.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_mouse_hook.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_mouse_hook.c.s
-.PHONY : Visual/minilibx/mlx_mouse_hook.c.s
-
-Visual/minilibx/mlx_new_image.o: Visual/minilibx/mlx_new_image.c.o
-
-.PHONY : Visual/minilibx/mlx_new_image.o
-
-# target to build an object file
-Visual/minilibx/mlx_new_image.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.o
-.PHONY : Visual/minilibx/mlx_new_image.c.o
-
-Visual/minilibx/mlx_new_image.i: Visual/minilibx/mlx_new_image.c.i
-
-.PHONY : Visual/minilibx/mlx_new_image.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_new_image.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.i
-.PHONY : Visual/minilibx/mlx_new_image.c.i
-
-Visual/minilibx/mlx_new_image.s: Visual/minilibx/mlx_new_image.c.s
-
-.PHONY : Visual/minilibx/mlx_new_image.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_new_image.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_image.c.s
-.PHONY : Visual/minilibx/mlx_new_image.c.s
-
-Visual/minilibx/mlx_new_window.o: Visual/minilibx/mlx_new_window.c.o
-
-.PHONY : Visual/minilibx/mlx_new_window.o
-
-# target to build an object file
-Visual/minilibx/mlx_new_window.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.o
-.PHONY : Visual/minilibx/mlx_new_window.c.o
-
-Visual/minilibx/mlx_new_window.i: Visual/minilibx/mlx_new_window.c.i
-
-.PHONY : Visual/minilibx/mlx_new_window.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_new_window.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.i
-.PHONY : Visual/minilibx/mlx_new_window.c.i
-
-Visual/minilibx/mlx_new_window.s: Visual/minilibx/mlx_new_window.c.s
-
-.PHONY : Visual/minilibx/mlx_new_window.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_new_window.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_new_window.c.s
-.PHONY : Visual/minilibx/mlx_new_window.c.s
-
-Visual/minilibx/mlx_pixel_put.o: Visual/minilibx/mlx_pixel_put.c.o
-
-.PHONY : Visual/minilibx/mlx_pixel_put.o
-
-# target to build an object file
-Visual/minilibx/mlx_pixel_put.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.o
-.PHONY : Visual/minilibx/mlx_pixel_put.c.o
-
-Visual/minilibx/mlx_pixel_put.i: Visual/minilibx/mlx_pixel_put.c.i
-
-.PHONY : Visual/minilibx/mlx_pixel_put.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_pixel_put.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.i
-.PHONY : Visual/minilibx/mlx_pixel_put.c.i
-
-Visual/minilibx/mlx_pixel_put.s: Visual/minilibx/mlx_pixel_put.c.s
-
-.PHONY : Visual/minilibx/mlx_pixel_put.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_pixel_put.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_pixel_put.c.s
-.PHONY : Visual/minilibx/mlx_pixel_put.c.s
-
-Visual/minilibx/mlx_put_image_to_window.o: Visual/minilibx/mlx_put_image_to_window.c.o
-
-.PHONY : Visual/minilibx/mlx_put_image_to_window.o
-
-# target to build an object file
-Visual/minilibx/mlx_put_image_to_window.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.o
-.PHONY : Visual/minilibx/mlx_put_image_to_window.c.o
-
-Visual/minilibx/mlx_put_image_to_window.i: Visual/minilibx/mlx_put_image_to_window.c.i
-
-.PHONY : Visual/minilibx/mlx_put_image_to_window.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_put_image_to_window.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.i
-.PHONY : Visual/minilibx/mlx_put_image_to_window.c.i
-
-Visual/minilibx/mlx_put_image_to_window.s: Visual/minilibx/mlx_put_image_to_window.c.s
-
-.PHONY : Visual/minilibx/mlx_put_image_to_window.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_put_image_to_window.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_put_image_to_window.c.s
-.PHONY : Visual/minilibx/mlx_put_image_to_window.c.s
-
-Visual/minilibx/mlx_rgb.o: Visual/minilibx/mlx_rgb.c.o
-
-.PHONY : Visual/minilibx/mlx_rgb.o
-
-# target to build an object file
-Visual/minilibx/mlx_rgb.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.o
-.PHONY : Visual/minilibx/mlx_rgb.c.o
-
-Visual/minilibx/mlx_rgb.i: Visual/minilibx/mlx_rgb.c.i
-
-.PHONY : Visual/minilibx/mlx_rgb.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_rgb.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.i
-.PHONY : Visual/minilibx/mlx_rgb.c.i
-
-Visual/minilibx/mlx_rgb.s: Visual/minilibx/mlx_rgb.c.s
-
-.PHONY : Visual/minilibx/mlx_rgb.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_rgb.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_rgb.c.s
-.PHONY : Visual/minilibx/mlx_rgb.c.s
-
-Visual/minilibx/mlx_string_put.o: Visual/minilibx/mlx_string_put.c.o
-
-.PHONY : Visual/minilibx/mlx_string_put.o
-
-# target to build an object file
-Visual/minilibx/mlx_string_put.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.o
-.PHONY : Visual/minilibx/mlx_string_put.c.o
-
-Visual/minilibx/mlx_string_put.i: Visual/minilibx/mlx_string_put.c.i
-
-.PHONY : Visual/minilibx/mlx_string_put.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_string_put.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.i
-.PHONY : Visual/minilibx/mlx_string_put.c.i
-
-Visual/minilibx/mlx_string_put.s: Visual/minilibx/mlx_string_put.c.s
-
-.PHONY : Visual/minilibx/mlx_string_put.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_string_put.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_string_put.c.s
-.PHONY : Visual/minilibx/mlx_string_put.c.s
-
-Visual/minilibx/mlx_xpm.o: Visual/minilibx/mlx_xpm.c.o
-
-.PHONY : Visual/minilibx/mlx_xpm.o
-
-# target to build an object file
-Visual/minilibx/mlx_xpm.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.o
-.PHONY : Visual/minilibx/mlx_xpm.c.o
-
-Visual/minilibx/mlx_xpm.i: Visual/minilibx/mlx_xpm.c.i
-
-.PHONY : Visual/minilibx/mlx_xpm.i
-
-# target to preprocess a source file
-Visual/minilibx/mlx_xpm.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.i
-.PHONY : Visual/minilibx/mlx_xpm.c.i
-
-Visual/minilibx/mlx_xpm.s: Visual/minilibx/mlx_xpm.c.s
-
-.PHONY : Visual/minilibx/mlx_xpm.s
-
-# target to generate assembly for a file
-Visual/minilibx/mlx_xpm.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/mlx_xpm.c.s
-.PHONY : Visual/minilibx/mlx_xpm.c.s
-
-Visual/minilibx/test/main.o: Visual/minilibx/test/main.c.o
-
-.PHONY : Visual/minilibx/test/main.o
-
-# target to build an object file
-Visual/minilibx/test/main.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.o
-.PHONY : Visual/minilibx/test/main.c.o
-
-Visual/minilibx/test/main.i: Visual/minilibx/test/main.c.i
-
-.PHONY : Visual/minilibx/test/main.i
-
-# target to preprocess a source file
-Visual/minilibx/test/main.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.i
-.PHONY : Visual/minilibx/test/main.c.i
-
-Visual/minilibx/test/main.s: Visual/minilibx/test/main.c.s
-
-.PHONY : Visual/minilibx/test/main.s
-
-# target to generate assembly for a file
-Visual/minilibx/test/main.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/test/main.c.s
-.PHONY : Visual/minilibx/test/main.c.s
-
-Visual/minilibx/test/new_win.o: Visual/minilibx/test/new_win.c.o
-
-.PHONY : Visual/minilibx/test/new_win.o
-
-# target to build an object file
-Visual/minilibx/test/new_win.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.o
-.PHONY : Visual/minilibx/test/new_win.c.o
-
-Visual/minilibx/test/new_win.i: Visual/minilibx/test/new_win.c.i
-
-.PHONY : Visual/minilibx/test/new_win.i
-
-# target to preprocess a source file
-Visual/minilibx/test/new_win.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.i
-.PHONY : Visual/minilibx/test/new_win.c.i
-
-Visual/minilibx/test/new_win.s: Visual/minilibx/test/new_win.c.s
-
-.PHONY : Visual/minilibx/test/new_win.s
-
-# target to generate assembly for a file
-Visual/minilibx/test/new_win.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/minilibx/test/new_win.c.s
-.PHONY : Visual/minilibx/test/new_win.c.s
-
-Visual/src/main.o: Visual/src/main.c.o
-
-.PHONY : Visual/src/main.o
-
-# target to build an object file
-Visual/src/main.c.o:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/src/main.c.o
-.PHONY : Visual/src/main.c.o
-
-Visual/src/main.i: Visual/src/main.c.i
-
-.PHONY : Visual/src/main.i
-
-# target to preprocess a source file
-Visual/src/main.c.i:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/src/main.c.i
-.PHONY : Visual/src/main.c.i
-
-Visual/src/main.s: Visual/src/main.c.s
-
-.PHONY : Visual/src/main.s
-
-# target to generate assembly for a file
-Visual/src/main.c.s:
-	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/Visual/src/main.c.s
-.PHONY : Visual/src/main.c.s
-
 ft_printf/src/check_args.o: ft_printf/src/check_args.c.o
 
 .PHONY : ft_printf/src/check_args.o
@@ -4092,6 +3255,357 @@ src/read.c.s:
 	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/src/read.c.s
 .PHONY : src/read.c.s
 
+visual/minilibx/font.o: visual/minilibx/font.c.o
+
+.PHONY : visual/minilibx/font.o
+
+# target to build an object file
+visual/minilibx/font.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/font.c.o
+.PHONY : visual/minilibx/font.c.o
+
+visual/minilibx/font.i: visual/minilibx/font.c.i
+
+.PHONY : visual/minilibx/font.i
+
+# target to preprocess a source file
+visual/minilibx/font.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/font.c.i
+.PHONY : visual/minilibx/font.c.i
+
+visual/minilibx/font.s: visual/minilibx/font.c.s
+
+.PHONY : visual/minilibx/font.s
+
+# target to generate assembly for a file
+visual/minilibx/font.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/font.c.s
+.PHONY : visual/minilibx/font.c.s
+
+visual/minilibx/mlx_init_loop.o: visual/minilibx/mlx_init_loop.m.o
+
+.PHONY : visual/minilibx/mlx_init_loop.o
+
+# target to build an object file
+visual/minilibx/mlx_init_loop.m.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.o
+.PHONY : visual/minilibx/mlx_init_loop.m.o
+
+visual/minilibx/mlx_init_loop.i: visual/minilibx/mlx_init_loop.m.i
+
+.PHONY : visual/minilibx/mlx_init_loop.i
+
+# target to preprocess a source file
+visual/minilibx/mlx_init_loop.m.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.i
+.PHONY : visual/minilibx/mlx_init_loop.m.i
+
+visual/minilibx/mlx_init_loop.s: visual/minilibx/mlx_init_loop.m.s
+
+.PHONY : visual/minilibx/mlx_init_loop.s
+
+# target to generate assembly for a file
+visual/minilibx/mlx_init_loop.m.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_init_loop.m.s
+.PHONY : visual/minilibx/mlx_init_loop.m.s
+
+visual/minilibx/mlx_int_str_to_wordtab.o: visual/minilibx/mlx_int_str_to_wordtab.c.o
+
+.PHONY : visual/minilibx/mlx_int_str_to_wordtab.o
+
+# target to build an object file
+visual/minilibx/mlx_int_str_to_wordtab.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.o
+.PHONY : visual/minilibx/mlx_int_str_to_wordtab.c.o
+
+visual/minilibx/mlx_int_str_to_wordtab.i: visual/minilibx/mlx_int_str_to_wordtab.c.i
+
+.PHONY : visual/minilibx/mlx_int_str_to_wordtab.i
+
+# target to preprocess a source file
+visual/minilibx/mlx_int_str_to_wordtab.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.i
+.PHONY : visual/minilibx/mlx_int_str_to_wordtab.c.i
+
+visual/minilibx/mlx_int_str_to_wordtab.s: visual/minilibx/mlx_int_str_to_wordtab.c.s
+
+.PHONY : visual/minilibx/mlx_int_str_to_wordtab.s
+
+# target to generate assembly for a file
+visual/minilibx/mlx_int_str_to_wordtab.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_int_str_to_wordtab.c.s
+.PHONY : visual/minilibx/mlx_int_str_to_wordtab.c.s
+
+visual/minilibx/mlx_new_image.o: visual/minilibx/mlx_new_image.m.o
+
+.PHONY : visual/minilibx/mlx_new_image.o
+
+# target to build an object file
+visual/minilibx/mlx_new_image.m.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.o
+.PHONY : visual/minilibx/mlx_new_image.m.o
+
+visual/minilibx/mlx_new_image.i: visual/minilibx/mlx_new_image.m.i
+
+.PHONY : visual/minilibx/mlx_new_image.i
+
+# target to preprocess a source file
+visual/minilibx/mlx_new_image.m.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.i
+.PHONY : visual/minilibx/mlx_new_image.m.i
+
+visual/minilibx/mlx_new_image.s: visual/minilibx/mlx_new_image.m.s
+
+.PHONY : visual/minilibx/mlx_new_image.s
+
+# target to generate assembly for a file
+visual/minilibx/mlx_new_image.m.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_new_image.m.s
+.PHONY : visual/minilibx/mlx_new_image.m.s
+
+visual/minilibx/mlx_new_window.o: visual/minilibx/mlx_new_window.m.o
+
+.PHONY : visual/minilibx/mlx_new_window.o
+
+# target to build an object file
+visual/minilibx/mlx_new_window.m.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.o
+.PHONY : visual/minilibx/mlx_new_window.m.o
+
+visual/minilibx/mlx_new_window.i: visual/minilibx/mlx_new_window.m.i
+
+.PHONY : visual/minilibx/mlx_new_window.i
+
+# target to preprocess a source file
+visual/minilibx/mlx_new_window.m.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.i
+.PHONY : visual/minilibx/mlx_new_window.m.i
+
+visual/minilibx/mlx_new_window.s: visual/minilibx/mlx_new_window.m.s
+
+.PHONY : visual/minilibx/mlx_new_window.s
+
+# target to generate assembly for a file
+visual/minilibx/mlx_new_window.m.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_new_window.m.s
+.PHONY : visual/minilibx/mlx_new_window.m.s
+
+visual/minilibx/mlx_rgb.o: visual/minilibx/mlx_rgb.c.o
+
+.PHONY : visual/minilibx/mlx_rgb.o
+
+# target to build an object file
+visual/minilibx/mlx_rgb.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.o
+.PHONY : visual/minilibx/mlx_rgb.c.o
+
+visual/minilibx/mlx_rgb.i: visual/minilibx/mlx_rgb.c.i
+
+.PHONY : visual/minilibx/mlx_rgb.i
+
+# target to preprocess a source file
+visual/minilibx/mlx_rgb.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.i
+.PHONY : visual/minilibx/mlx_rgb.c.i
+
+visual/minilibx/mlx_rgb.s: visual/minilibx/mlx_rgb.c.s
+
+.PHONY : visual/minilibx/mlx_rgb.s
+
+# target to generate assembly for a file
+visual/minilibx/mlx_rgb.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_rgb.c.s
+.PHONY : visual/minilibx/mlx_rgb.c.s
+
+visual/minilibx/mlx_shaders.o: visual/minilibx/mlx_shaders.c.o
+
+.PHONY : visual/minilibx/mlx_shaders.o
+
+# target to build an object file
+visual/minilibx/mlx_shaders.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.o
+.PHONY : visual/minilibx/mlx_shaders.c.o
+
+visual/minilibx/mlx_shaders.i: visual/minilibx/mlx_shaders.c.i
+
+.PHONY : visual/minilibx/mlx_shaders.i
+
+# target to preprocess a source file
+visual/minilibx/mlx_shaders.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.i
+.PHONY : visual/minilibx/mlx_shaders.c.i
+
+visual/minilibx/mlx_shaders.s: visual/minilibx/mlx_shaders.c.s
+
+.PHONY : visual/minilibx/mlx_shaders.s
+
+# target to generate assembly for a file
+visual/minilibx/mlx_shaders.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.s
+.PHONY : visual/minilibx/mlx_shaders.c.s
+
+visual/minilibx/mlx_xpm.o: visual/minilibx/mlx_xpm.c.o
+
+.PHONY : visual/minilibx/mlx_xpm.o
+
+# target to build an object file
+visual/minilibx/mlx_xpm.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.o
+.PHONY : visual/minilibx/mlx_xpm.c.o
+
+visual/minilibx/mlx_xpm.i: visual/minilibx/mlx_xpm.c.i
+
+.PHONY : visual/minilibx/mlx_xpm.i
+
+# target to preprocess a source file
+visual/minilibx/mlx_xpm.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.i
+.PHONY : visual/minilibx/mlx_xpm.c.i
+
+visual/minilibx/mlx_xpm.s: visual/minilibx/mlx_xpm.c.s
+
+.PHONY : visual/minilibx/mlx_xpm.s
+
+# target to generate assembly for a file
+visual/minilibx/mlx_xpm.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.s
+.PHONY : visual/minilibx/mlx_xpm.c.s
+
+visual/src/draw.o: visual/src/draw.c.o
+
+.PHONY : visual/src/draw.o
+
+# target to build an object file
+visual/src/draw.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/draw.c.o
+.PHONY : visual/src/draw.c.o
+
+visual/src/draw.i: visual/src/draw.c.i
+
+.PHONY : visual/src/draw.i
+
+# target to preprocess a source file
+visual/src/draw.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/draw.c.i
+.PHONY : visual/src/draw.c.i
+
+visual/src/draw.s: visual/src/draw.c.s
+
+.PHONY : visual/src/draw.s
+
+# target to generate assembly for a file
+visual/src/draw.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/draw.c.s
+.PHONY : visual/src/draw.c.s
+
+visual/src/draw2.o: visual/src/draw2.c.o
+
+.PHONY : visual/src/draw2.o
+
+# target to build an object file
+visual/src/draw2.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/draw2.c.o
+.PHONY : visual/src/draw2.c.o
+
+visual/src/draw2.i: visual/src/draw2.c.i
+
+.PHONY : visual/src/draw2.i
+
+# target to preprocess a source file
+visual/src/draw2.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/draw2.c.i
+.PHONY : visual/src/draw2.c.i
+
+visual/src/draw2.s: visual/src/draw2.c.s
+
+.PHONY : visual/src/draw2.s
+
+# target to generate assembly for a file
+visual/src/draw2.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/draw2.c.s
+.PHONY : visual/src/draw2.c.s
+
+visual/src/key_hook.o: visual/src/key_hook.c.o
+
+.PHONY : visual/src/key_hook.o
+
+# target to build an object file
+visual/src/key_hook.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/key_hook.c.o
+.PHONY : visual/src/key_hook.c.o
+
+visual/src/key_hook.i: visual/src/key_hook.c.i
+
+.PHONY : visual/src/key_hook.i
+
+# target to preprocess a source file
+visual/src/key_hook.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/key_hook.c.i
+.PHONY : visual/src/key_hook.c.i
+
+visual/src/key_hook.s: visual/src/key_hook.c.s
+
+.PHONY : visual/src/key_hook.s
+
+# target to generate assembly for a file
+visual/src/key_hook.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/key_hook.c.s
+.PHONY : visual/src/key_hook.c.s
+
+visual/src/main.o: visual/src/main.c.o
+
+.PHONY : visual/src/main.o
+
+# target to build an object file
+visual/src/main.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/main.c.o
+.PHONY : visual/src/main.c.o
+
+visual/src/main.i: visual/src/main.c.i
+
+.PHONY : visual/src/main.i
+
+# target to preprocess a source file
+visual/src/main.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/main.c.i
+.PHONY : visual/src/main.c.i
+
+visual/src/main.s: visual/src/main.c.s
+
+.PHONY : visual/src/main.s
+
+# target to generate assembly for a file
+visual/src/main.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/main.c.s
+.PHONY : visual/src/main.c.s
+
+visual/src/read_params.o: visual/src/read_params.c.o
+
+.PHONY : visual/src/read_params.o
+
+# target to build an object file
+visual/src/read_params.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/read_params.c.o
+.PHONY : visual/src/read_params.c.o
+
+visual/src/read_params.i: visual/src/read_params.c.i
+
+.PHONY : visual/src/read_params.i
+
+# target to preprocess a source file
+visual/src/read_params.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/read_params.c.i
+.PHONY : visual/src/read_params.c.i
+
+visual/src/read_params.s: visual/src/read_params.c.s
+
+.PHONY : visual/src/read_params.s
+
+# target to generate assembly for a file
+visual/src/read_params.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/read_params.c.s
+.PHONY : visual/src/read_params.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -4101,99 +3615,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Filler"
-	@echo "... Visual/minilibx/mlx_clear_window.o"
-	@echo "... Visual/minilibx/mlx_clear_window.i"
-	@echo "... Visual/minilibx/mlx_clear_window.s"
-	@echo "... Visual/minilibx/mlx_destroy_image.o"
-	@echo "... Visual/minilibx/mlx_destroy_image.i"
-	@echo "... Visual/minilibx/mlx_destroy_image.s"
-	@echo "... Visual/minilibx/mlx_destroy_window.o"
-	@echo "... Visual/minilibx/mlx_destroy_window.i"
-	@echo "... Visual/minilibx/mlx_destroy_window.s"
-	@echo "... Visual/minilibx/mlx_expose_hook.o"
-	@echo "... Visual/minilibx/mlx_expose_hook.i"
-	@echo "... Visual/minilibx/mlx_expose_hook.s"
-	@echo "... Visual/minilibx/mlx_flush_event.o"
-	@echo "... Visual/minilibx/mlx_flush_event.i"
-	@echo "... Visual/minilibx/mlx_flush_event.s"
-	@echo "... Visual/minilibx/mlx_get_color_value.o"
-	@echo "... Visual/minilibx/mlx_get_color_value.i"
-	@echo "... Visual/minilibx/mlx_get_color_value.s"
-	@echo "... Visual/minilibx/mlx_get_data_addr.o"
-	@echo "... Visual/minilibx/mlx_get_data_addr.i"
-	@echo "... Visual/minilibx/mlx_get_data_addr.s"
-	@echo "... Visual/minilibx/mlx_hook.o"
-	@echo "... Visual/minilibx/mlx_hook.i"
-	@echo "... Visual/minilibx/mlx_hook.s"
-	@echo "... Visual/minilibx/mlx_init.o"
-	@echo "... Visual/minilibx/mlx_init.i"
-	@echo "... Visual/minilibx/mlx_init.s"
-	@echo "... Visual/minilibx/mlx_int_anti_resize_win.o"
-	@echo "... Visual/minilibx/mlx_int_anti_resize_win.i"
-	@echo "... Visual/minilibx/mlx_int_anti_resize_win.s"
-	@echo "... Visual/minilibx/mlx_int_do_nothing.o"
-	@echo "... Visual/minilibx/mlx_int_do_nothing.i"
-	@echo "... Visual/minilibx/mlx_int_do_nothing.s"
-	@echo "... Visual/minilibx/mlx_int_get_visual.o"
-	@echo "... Visual/minilibx/mlx_int_get_visual.i"
-	@echo "... Visual/minilibx/mlx_int_get_visual.s"
-	@echo "... Visual/minilibx/mlx_int_param_event.o"
-	@echo "... Visual/minilibx/mlx_int_param_event.i"
-	@echo "... Visual/minilibx/mlx_int_param_event.s"
-	@echo "... Visual/minilibx/mlx_int_set_win_event_mask.o"
-	@echo "... Visual/minilibx/mlx_int_set_win_event_mask.i"
-	@echo "... Visual/minilibx/mlx_int_set_win_event_mask.s"
-	@echo "... Visual/minilibx/mlx_int_str_to_wordtab.o"
-	@echo "... Visual/minilibx/mlx_int_str_to_wordtab.i"
-	@echo "... Visual/minilibx/mlx_int_str_to_wordtab.s"
-	@echo "... Visual/minilibx/mlx_int_wait_first_expose.o"
-	@echo "... Visual/minilibx/mlx_int_wait_first_expose.i"
-	@echo "... Visual/minilibx/mlx_int_wait_first_expose.s"
-	@echo "... Visual/minilibx/mlx_key_hook.o"
-	@echo "... Visual/minilibx/mlx_key_hook.i"
-	@echo "... Visual/minilibx/mlx_key_hook.s"
-	@echo "... Visual/minilibx/mlx_lib_xpm.o"
-	@echo "... Visual/minilibx/mlx_lib_xpm.i"
-	@echo "... Visual/minilibx/mlx_lib_xpm.s"
-	@echo "... Visual/minilibx/mlx_loop.o"
-	@echo "... Visual/minilibx/mlx_loop.i"
-	@echo "... Visual/minilibx/mlx_loop.s"
-	@echo "... Visual/minilibx/mlx_loop_hook.o"
-	@echo "... Visual/minilibx/mlx_loop_hook.i"
-	@echo "... Visual/minilibx/mlx_loop_hook.s"
-	@echo "... Visual/minilibx/mlx_mouse_hook.o"
-	@echo "... Visual/minilibx/mlx_mouse_hook.i"
-	@echo "... Visual/minilibx/mlx_mouse_hook.s"
-	@echo "... Visual/minilibx/mlx_new_image.o"
-	@echo "... Visual/minilibx/mlx_new_image.i"
-	@echo "... Visual/minilibx/mlx_new_image.s"
-	@echo "... Visual/minilibx/mlx_new_window.o"
-	@echo "... Visual/minilibx/mlx_new_window.i"
-	@echo "... Visual/minilibx/mlx_new_window.s"
-	@echo "... Visual/minilibx/mlx_pixel_put.o"
-	@echo "... Visual/minilibx/mlx_pixel_put.i"
-	@echo "... Visual/minilibx/mlx_pixel_put.s"
-	@echo "... Visual/minilibx/mlx_put_image_to_window.o"
-	@echo "... Visual/minilibx/mlx_put_image_to_window.i"
-	@echo "... Visual/minilibx/mlx_put_image_to_window.s"
-	@echo "... Visual/minilibx/mlx_rgb.o"
-	@echo "... Visual/minilibx/mlx_rgb.i"
-	@echo "... Visual/minilibx/mlx_rgb.s"
-	@echo "... Visual/minilibx/mlx_string_put.o"
-	@echo "... Visual/minilibx/mlx_string_put.i"
-	@echo "... Visual/minilibx/mlx_string_put.s"
-	@echo "... Visual/minilibx/mlx_xpm.o"
-	@echo "... Visual/minilibx/mlx_xpm.i"
-	@echo "... Visual/minilibx/mlx_xpm.s"
-	@echo "... Visual/minilibx/test/main.o"
-	@echo "... Visual/minilibx/test/main.i"
-	@echo "... Visual/minilibx/test/main.s"
-	@echo "... Visual/minilibx/test/new_win.o"
-	@echo "... Visual/minilibx/test/new_win.i"
-	@echo "... Visual/minilibx/test/new_win.s"
-	@echo "... Visual/src/main.o"
-	@echo "... Visual/src/main.i"
-	@echo "... Visual/src/main.s"
 	@echo "... ft_printf/src/check_args.o"
 	@echo "... ft_printf/src/check_args.i"
 	@echo "... ft_printf/src/check_args.s"
@@ -4542,6 +3963,45 @@ help:
 	@echo "... src/read.o"
 	@echo "... src/read.i"
 	@echo "... src/read.s"
+	@echo "... visual/minilibx/font.o"
+	@echo "... visual/minilibx/font.i"
+	@echo "... visual/minilibx/font.s"
+	@echo "... visual/minilibx/mlx_init_loop.o"
+	@echo "... visual/minilibx/mlx_init_loop.i"
+	@echo "... visual/minilibx/mlx_init_loop.s"
+	@echo "... visual/minilibx/mlx_int_str_to_wordtab.o"
+	@echo "... visual/minilibx/mlx_int_str_to_wordtab.i"
+	@echo "... visual/minilibx/mlx_int_str_to_wordtab.s"
+	@echo "... visual/minilibx/mlx_new_image.o"
+	@echo "... visual/minilibx/mlx_new_image.i"
+	@echo "... visual/minilibx/mlx_new_image.s"
+	@echo "... visual/minilibx/mlx_new_window.o"
+	@echo "... visual/minilibx/mlx_new_window.i"
+	@echo "... visual/minilibx/mlx_new_window.s"
+	@echo "... visual/minilibx/mlx_rgb.o"
+	@echo "... visual/minilibx/mlx_rgb.i"
+	@echo "... visual/minilibx/mlx_rgb.s"
+	@echo "... visual/minilibx/mlx_shaders.o"
+	@echo "... visual/minilibx/mlx_shaders.i"
+	@echo "... visual/minilibx/mlx_shaders.s"
+	@echo "... visual/minilibx/mlx_xpm.o"
+	@echo "... visual/minilibx/mlx_xpm.i"
+	@echo "... visual/minilibx/mlx_xpm.s"
+	@echo "... visual/src/draw.o"
+	@echo "... visual/src/draw.i"
+	@echo "... visual/src/draw.s"
+	@echo "... visual/src/draw2.o"
+	@echo "... visual/src/draw2.i"
+	@echo "... visual/src/draw2.s"
+	@echo "... visual/src/key_hook.o"
+	@echo "... visual/src/key_hook.i"
+	@echo "... visual/src/key_hook.s"
+	@echo "... visual/src/main.o"
+	@echo "... visual/src/main.i"
+	@echo "... visual/src/main.s"
+	@echo "... visual/src/read_params.o"
+	@echo "... visual/src/read_params.i"
+	@echo "... visual/src/read_params.s"
 .PHONY : help
 
 
