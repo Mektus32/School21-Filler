@@ -35,5 +35,7 @@ int		main(void)
 		ft_read_params(&filler, line);
 		ft_strdel(&line);
 	}
+	if (filler.map)
+		ft_frtwarr((void**)filler.map, filler.map_y);
 	return (0);
 }

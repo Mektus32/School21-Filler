@@ -30,7 +30,7 @@ typedef struct		s_filler
 	int		sum;
 	int		fd;
 	int		player;
-	int		**map;
+	char	**map;
 	int		map_x;
 	int		map_y;
 	char	**fig;
@@ -40,6 +40,6 @@ typedef struct		s_filler
 
 void				ft_read_params(t_filler *filler, char *line);
 void				ft_place_fig(t_filler *filler);
-void				ft_heapmap(t_filler *filler);
+int					**ft_heapmap(t_filler *filler, int **mapint);
 
 #endif
