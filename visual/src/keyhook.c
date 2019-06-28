@@ -35,14 +35,14 @@ int 	keyboard(int key, void *param)
 	{
 		p->right = 1;
 		p->left = 0;
-		ft_draw(p);
 	}
 	if (key == 123)
 	{
 		p->right = 0;
 		p->left = 1;
-		ft_draw(p);
 	}
+	if (key == 1)
+		p->slow = (p->slow + 1) % 2;
 	return (0);
 }
 
@@ -50,4 +50,5 @@ void	ft_key_hook(t_params *p)
 {
 	mlx_hook(p->win_ptr, 2, 0, keyboard, p);
 	mlx_hook(p->win_ptr, 17, 0, expose, p);
+	mlx_loop_hook(p->mlx_ptr, ft_draw, p);
 }

@@ -122,12 +122,16 @@ void	ft_print(t_params *p, t_fig *cur)
 {
 	int 	*arr;
 
+
 	arr = (int*)p->image->img_data;
 	arr = ft_background(arr);
 	arr = ft_draw_rectangle(100, HEIGHT - 80, p, 1);
 	ft_draw_rectangle(WIDTH - 600, HEIGHT - 80, p, 2);
 	ft_draw_map(p);
 	mlx_put_image_to_window(p->mlx_ptr, p->win_ptr, p->image->img_ptr, 0, 0);
+	mlx_string_put(p->mlx_ptr, p->win_ptr, 1100, 50, cur->player ? p->player2.color : p->player1.color, ft_free_strjoin_rev(cur->player ? "X -> " : "O -> ", ft_free_strjoin_duo(ft_itoa(cur->fig_y), ft_itoa(cur->fig_x))));
+	for (int i = 0; i < cur->fig_y; i++)
+		mlx_string_put(p->mlx_ptr, p->win_ptr, 1100, 100 + i * 10, cur->player ? p->player2.color : p->player1.color, cur->fig[i]);
 	mlx_string_put(p->mlx_ptr, p->win_ptr, 100, HEIGHT - 100, p->player1.color, p->player1.name);
 	mlx_string_put(p->mlx_ptr, p->win_ptr, 100 + 100, HEIGHT - 100, p->player1.color, ft_itoa(p->player1.score));
 	mlx_string_put(p->mlx_ptr, p->win_ptr, WIDTH - 600, HEIGHT - 100, p->player2.color, p->player2.name);

@@ -105,7 +105,7 @@ void	ft_create_right_image(t_params *p, t_fig *cur)
 	}
 }
 
-void	ft_draw(t_params *p)
+int		ft_draw(t_params *p)
 {
 	static	t_fig	*cur = NULL;
 
@@ -113,16 +113,18 @@ void	ft_draw(t_params *p)
 		cur = p->fig;
 	!p->mlx_ptr ?  p->mlx_ptr = mlx_init() : 0;
 	!p->win_ptr ?  p->win_ptr = mlx_new_window(p->mlx_ptr, WIDTH, HEIGHT, "Filler") : 0;
+	p->slow ? usleep(100000) : 0;
 	ft_init_image(p);
-	if (!p->pause && p->right)
+	if (p->pause && p->right)
 	{
 		cur ? ft_create_right_image(p, cur) : 0;
 		cur = ft_move_right(cur, 1);
 	}
-	else if (!p->pause && p->left)
+	else if (p->pause && p->left)
 	{
 		cur = ft_move_left(cur, 1);
 		cur ? ft_create_left_image(p, cur) : 0;
 	}
 	ft_print(p, cur);
+	return (0);
 }

@@ -75,7 +75,7 @@ typedef struct		s_params
 	t_fig		*fig;
 	int 		left;
 	int 		right;
-
+	int 		slow;
 }					t_params;
 
 t_fig				*ft_create_elem(int **par, char **fig, t_fig *prev);
@@ -84,7 +84,7 @@ t_fig				*ft_move_right(t_fig *cur, int step);
 t_fig				*ft_move_left(t_fig *cur, int step);
 void				ft_read(t_params *p);
 void				ft_parse_fig(t_params *p, char *line);
-void				ft_draw(t_params *p);
+int					ft_draw(t_params *p);
 void 				ft_key_hook(t_params *p);
 void				ft_print(t_params *p, t_fig *cur);
 
