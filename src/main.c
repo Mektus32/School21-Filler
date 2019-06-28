@@ -22,20 +22,20 @@ void	ft_init_filler(t_filler *filler)
 	filler->fig_x = 0;
 }
 
-int		main(void)
-{
-	t_filler	filler;
-	char		*line;
-
-	ft_init_filler(&filler);
-	while (1)
-	{
-		if (get_next_line(filler.fd, &line) < 1)
-			break ;
-		ft_read_params(&filler, line);
-		ft_strdel(&line);
-	}
-	if (filler.map)
-		ft_frtwarr((void**)filler.map, filler.map_y);
-	return (0);
-}
+//int		main(void)
+//{
+//	t_filler	filler;
+//	char		*line;
+//
+//	ft_init_filler(&filler);
+//	while (1)
+//	{
+//		if (get_next_line(filler.fd, &line) < 1)
+//			break ;
+//		ft_read_params(&filler, line);
+//		ft_strdel(&line);
+//	}
+//	if (filler.map)
+//		ft_frtwarr((void**)filler.map, filler.map_y);
+//	return (0);
+//}

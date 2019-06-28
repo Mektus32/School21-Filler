@@ -15,12 +15,12 @@
 NAME = visualizator
 
 # src / ob files
-SRC =	main.c \
-		key_hook.c \
-		read_params.c \
-		draw.c \
-		smth.c \
-		draw2.c
+SRC =	visu.c \
+		list_fun.c \
+		read.c \
+		parse_fig.c \
+		draw.c
+
 
 OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))
 

@@ -12,17 +12,28 @@
 
 #ifndef VISUALIZATOR_H
 # define VISUALIZATOR_H
+# define WIDTH 1200
+# define HEIGHT 600
 
 # include "libft.h"
 # include "mlx.h"
 # include "get_next_line.h"
 # include "ft_printf.h"
 # include "filler.h"
-# define WIDTHW 1200
-# define HEIGHTW 600
-# define WIDTHI 600
-# define HEIGHTI 500
-# define WINNAME "Filler visualizator"
+
+
+typedef	struct		s_fig
+{
+	int 			x;
+	int 			y;
+	int 			player;
+	int 			score;
+	char 			**fig;
+	int 			fig_x;
+	int 			fig_y;
+	struct	s_fig	*next;
+	struct	s_fig	*prev;
+}					t_fig;
 
 typedef	struct		s_image
 {
@@ -38,14 +49,15 @@ typedef struct 		s_map
 	char 	**map;
 	int 	map_y;
 	int 	map_x;
+	int 	done;
 }					t_map;
 
 typedef	struct		s_player
 {
 	char	*name;
 	int 	color;
-	int 	score;
 	int 	bgcolor;
+	int 	id;
 }					t_player;
 
 typedef struct		s_params
@@ -57,12 +69,18 @@ typedef struct		s_params
 	int 		pause;
 	t_player	player1;
 	t_player	player2;
+	t_fig		*fig;
+	int 		left;
+	int 		right;
+
 }					t_params;
 
-void				ft_key_hook(t_params *p);
-void				ft_read_param(t_params *p);
+t_fig				*ft_create_elem(int **par, char **fig, t_fig *prev);
+t_fig				*ft_push_back(t_fig	**head, int **par, char **fig);
+t_fig				*ft_move_right(t_fig *cur, int step);
+t_fig				*ft_move_left(t_fig *cur, int step);
+void				ft_read(t_params *p);
+void				ft_parse_fig(t_params *p, char *line);
 void				ft_draw(t_params *p);
-void				ft_calc_score(t_params *p);
-void				ft_draw_box(t_params *p, int color);
 
 #endif

@@ -115,61 +115,10 @@
 		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/choise_spec.c">
 			<Option target="Filler"/>
 		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_atoi.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_free_strjoin_duo.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_free_strjoin_rev.c">
-			<Option target="Filler"/>
-		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_free_strncpy.c">
 			<Option target="Filler"/>
 		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_ftoa.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_itoa.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_ltoa.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_ltoa_base.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_memset.c">
-			<Option target="Filler"/>
-		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_printf.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_strchr.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_strdup.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_strjoin.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_strlen.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_strncmp.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_strnew.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_strtolower.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_ultoa.c">
-			<Option target="Filler"/>
-		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/ft_ultoa_base.c">
 			<Option target="Filler"/>
 		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/ft_printf/src/init_arg.c">
@@ -295,6 +244,9 @@
 		<Unit filename="/Users/ojessi/Desktop/Filler/libft/ft_ltoa_base.c">
 			<Option target="Filler"/>
 		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/libft/ft_max.c">
+			<Option target="Filler"/>
+		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/libft/ft_memalloc.c">
 			<Option target="Filler"/>
 		</Unit>
@@ -317,6 +269,9 @@
 			<Option target="Filler"/>
 		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/libft/ft_memset.c">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/libft/ft_min.c">
 			<Option target="Filler"/>
 		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/libft/ft_pow.c">
@@ -562,16 +517,16 @@
 		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/draw.c">
 			<Option target="Filler"/>
 		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/draw2.c">
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/list_fun.c">
 			<Option target="Filler"/>
 		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/key_hook.c">
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/parse_fig.c">
 			<Option target="Filler"/>
 		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/main.c">
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/read.c">
 			<Option target="Filler"/>
 		</Unit>
-		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/read_params.c">
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/visu.c">
 			<Option target="Filler"/>
 		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/CMakeLists.txt">

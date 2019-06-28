@@ -20,25 +20,8 @@ add_executable(Filler
         ft_printf/includes/ft_printf.h
         ft_printf/src/check_args.c
         ft_printf/src/choise_spec.c
-        ft_printf/src/ft_atoi.c
-        ft_printf/src/ft_free_strjoin_duo.c
-        ft_printf/src/ft_free_strjoin_rev.c
         ft_printf/src/ft_free_strncpy.c
-        ft_printf/src/ft_ftoa.c
-        ft_printf/src/ft_itoa.c
-        ft_printf/src/ft_ltoa.c
-        ft_printf/src/ft_ltoa_base.c
-        ft_printf/src/ft_memset.c
         ft_printf/src/ft_printf.c
-        ft_printf/src/ft_strchr.c
-        ft_printf/src/ft_strdup.c
-        ft_printf/src/ft_strjoin.c
-        ft_printf/src/ft_strlen.c
-        ft_printf/src/ft_strncmp.c
-        ft_printf/src/ft_strnew.c
-        ft_printf/src/ft_strtolower.c
-        ft_printf/src/ft_ultoa.c
-        ft_printf/src/ft_ultoa_base.c
         ft_printf/src/init_arg.c
         ft_printf/src/print_digit.c
         ft_printf/src/print_double.c
@@ -82,6 +65,8 @@ add_executable(Filler
         libft/ft_lstnew.c
         libft/ft_ltoa.c
         libft/ft_ltoa_base.c
+        libft/ft_max.c
+        libft/ft_min.c
         libft/ft_memalloc.c
         libft/ft_memccpy.c
         libft/ft_memchr.c
@@ -168,8 +153,8 @@ add_executable(Filler
         visual/minilibx/mlx_rgb.c
         visual/minilibx/mlx_shaders.c
         visual/minilibx/mlx_xpm.c
-        visual/src/key_hook.c
-        visual/src/main.c
-        visual/src/read_params.c
-        visual/src/draw.c
-        visual/src/draw2.c)
+        visual/src/visu.c
+        visual/src/list_fun.c
+        visual/src/read.c
+        visual/src/parse_fig.c
+        visual/src/draw.c)
