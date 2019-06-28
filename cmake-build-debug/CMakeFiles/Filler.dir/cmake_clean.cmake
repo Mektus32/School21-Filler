@@ -113,6 +113,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Filler.dir/visual/src/read.c.o"
   "CMakeFiles/Filler.dir/visual/src/parse_fig.c.o"
   "CMakeFiles/Filler.dir/visual/src/draw.c.o"
+  "CMakeFiles/Filler.dir/visual/src/keyhook.c.o"
   "Filler.pdb"
   "Filler"
 )

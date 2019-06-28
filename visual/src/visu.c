@@ -16,7 +16,12 @@ void	ft_init_p(t_params *p)
 {
 	open("/Users/ojessi/Desktop/Filler/one_map", O_RDWR | O_APPEND);
 	open("/Users/ojessi/Desktop/Filler/resources/test", O_RDWR | O_APPEND);
-	p->image = NULL;
+	p->mlx_ptr = NULL;
+	p->win_ptr = NULL;
+	p->image = ft_memalloc(sizeof(t_image));
+	p->image->bpp = 32;
+	p->image->size_line = WIDTH * 4;
+	p->image->endian = 0;
 	p->map = NULL;
 	p->pause = 0;
 	p->left = 0;
@@ -49,7 +54,9 @@ int 	main(void)
 
 	ft_init_p(&p);
 	ft_read(&p);
-	ft_print_list(&p);
+	//ft_print_list(&p);
 	ft_draw(&p);
+	ft_key_hook(&p);
+	mlx_loop(p.mlx_ptr);
 	return (0);
 }

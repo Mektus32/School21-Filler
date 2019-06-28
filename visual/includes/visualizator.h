@@ -82,5 +82,6 @@ t_fig				*ft_move_left(t_fig *cur, int step);
 void				ft_read(t_params *p);
 void				ft_parse_fig(t_params *p, char *line);
 void				ft_draw(t_params *p);
+void 				ft_key_hook(t_params *p);
 
 #endif

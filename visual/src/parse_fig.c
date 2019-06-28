@@ -106,7 +106,7 @@ void	ft_parse_fig(t_params *p, char *line)
 	fig = NULL;
 	while (get_next_line(4, &str) > 0 && !ft_strstr(str, "<got"))
 	{
-		ft_printf("{set:fd} %s\n", 3, str);
+	//	ft_printf("{set:fd} %s\n", 3, str);
 		fig = ft_fill_fig(p, str, fig, par);
 		ft_strdel(&str);
 	}

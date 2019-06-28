@@ -517,6 +517,9 @@
 		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/draw.c">
 			<Option target="Filler"/>
 		</Unit>
+		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/keyhook.c">
+			<Option target="Filler"/>
+		</Unit>
 		<Unit filename="/Users/ojessi/Desktop/Filler/visual/src/list_fun.c">
 			<Option target="Filler"/>
 		</Unit>

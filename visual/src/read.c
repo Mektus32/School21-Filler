@@ -82,7 +82,7 @@ void	ft_read(t_params *p)
 
 	while (get_next_line(4, &line) > 0)
 	{
-		ft_printf("{set:fd} %s\n", 3, line);
+	//	ft_printf("{set:fd} %s\n", 3, line);
 		if (line[0] == '$')
 			ft_init_player(p, line);
 		else if (ft_strstr(line, "Plateau") && !p->map)
