@@ -104,7 +104,7 @@ void	ft_parse_fig(t_params *p, char *line)
 	par = ft_memalloc(sizeof(int) * 6);
 	par = ft_get_params_fig(p, line, par);
 	fig = NULL;
-	while (get_next_line(4, &str) > 0 && !ft_strstr(str, "<got"))
+	while (get_next_line(0, &str) > 0 && !ft_strstr(str, "<got"))
 	{
 	//	ft_printf("{set:fd} %s\n", 3, str);
 		fig = ft_fill_fig(p, str, fig, par);

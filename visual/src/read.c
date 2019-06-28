@@ -80,7 +80,7 @@ void	ft_read(t_params *p)
 {
 	char 	*line;
 
-	while (get_next_line(4, &line) > 0)
+	while (get_next_line(0, &line) > 0)
 	{
 	//	ft_printf("{set:fd} %s\n", 3, line);
 		if (line[0] == '$')

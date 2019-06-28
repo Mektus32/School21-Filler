@@ -3093,6 +3093,33 @@ visual/src/draw.c.s:
 	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/draw.c.s
 .PHONY : visual/src/draw.c.s
 
+visual/src/draw2.o: visual/src/draw2.c.o
+
+.PHONY : visual/src/draw2.o
+
+# target to build an object file
+visual/src/draw2.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/draw2.c.o
+.PHONY : visual/src/draw2.c.o
+
+visual/src/draw2.i: visual/src/draw2.c.i
+
+.PHONY : visual/src/draw2.i
+
+# target to preprocess a source file
+visual/src/draw2.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/draw2.c.i
+.PHONY : visual/src/draw2.c.i
+
+visual/src/draw2.s: visual/src/draw2.c.s
+
+.PHONY : visual/src/draw2.s
+
+# target to generate assembly for a file
+visual/src/draw2.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/visual/src/draw2.c.s
+.PHONY : visual/src/draw2.c.s
+
 visual/src/keyhook.o: visual/src/keyhook.c.o
 
 .PHONY : visual/src/keyhook.o
@@ -3567,6 +3594,9 @@ help:
 	@echo "... visual/src/draw.o"
 	@echo "... visual/src/draw.i"
 	@echo "... visual/src/draw.s"
+	@echo "... visual/src/draw2.o"
+	@echo "... visual/src/draw2.i"
+	@echo "... visual/src/draw2.s"
 	@echo "... visual/src/keyhook.o"
 	@echo "... visual/src/keyhook.i"
 	@echo "... visual/src/keyhook.s"

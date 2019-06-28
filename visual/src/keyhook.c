@@ -35,13 +35,14 @@ int 	keyboard(int key, void *param)
 	{
 		p->right = 1;
 		p->left = 0;
+		ft_draw(p);
 	}
 	if (key == 123)
 	{
 		p->right = 0;
 		p->left = 1;
+		ft_draw(p);
 	}
-	ft_draw(p);
 	return (0);
 }
 

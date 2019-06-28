@@ -20,7 +20,8 @@ SRC =	visu.c \
 		read.c \
 		parse_fig.c \
 		draw.c \
-		keyhook.c
+		keyhook.c \
+		draw2.c
 
 
 OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))

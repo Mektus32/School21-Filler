@@ -24,6 +24,8 @@ t_fig	*ft_create_elem(int **par, char **fig, t_fig *prev)
 	list->fig = fig;
 	list->fig_x = (*par)[3];
 	list->fig_y = (*par)[4];
+	list->sim_x = 0;
+	list->sim_y = 0;
 	list->score = (*par)[5];
 	list->prev = prev;
 	list->next = NULL;
@@ -47,8 +49,9 @@ t_fig	*ft_move_right(t_fig *cur, int step)
 	t_fig	*list;
 
 	list = cur;
-	while (list && step-- > 0)
-		list = list->next;
+	if (list)
+		while (list->next && step-- > 0)
+			list = list->next;
 	return (list);
 }
 
@@ -57,7 +60,8 @@ t_fig	*ft_move_left(t_fig *cur, int step)
 	t_fig	*list;
 
 	list = cur;
-	while (list && step-- > 0)
-		list = list->prev;
+	if (list)
+		while (list->prev && step-- > 0)
+			list = list->prev;
 	return (list);
 }

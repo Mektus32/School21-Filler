@@ -33,6 +33,8 @@ typedef	struct		s_fig
 	int 			fig_y;
 	struct	s_fig	*next;
 	struct	s_fig	*prev;
+	int 			sim_y;
+	int 			sim_x;
 }					t_fig;
 
 typedef	struct		s_image
@@ -58,6 +60,7 @@ typedef	struct		s_player
 	int 	color;
 	int 	bgcolor;
 	int 	id;
+	int 	score;
 }					t_player;
 
 typedef struct		s_params
@@ -83,5 +86,6 @@ void				ft_read(t_params *p);
 void				ft_parse_fig(t_params *p, char *line);
 void				ft_draw(t_params *p);
 void 				ft_key_hook(t_params *p);
+void				ft_print(t_params *p, t_fig *cur);
 
 #endif

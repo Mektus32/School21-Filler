@@ -25,7 +25,7 @@ void	ft_init_p(t_params *p)
 	p->map = NULL;
 	p->pause = 0;
 	p->left = 0;
-	p->right = 1;
+	p->right = 0;
 	p->fig = NULL;
 }
 

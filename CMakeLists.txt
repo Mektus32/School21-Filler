@@ -158,4 +158,5 @@ add_executable(Filler
         visual/src/read.c
         visual/src/parse_fig.c
         visual/src/draw.c
-        visual/src/keyhook.c)
+        visual/src/keyhook.c
+        visual/src/draw2.c)

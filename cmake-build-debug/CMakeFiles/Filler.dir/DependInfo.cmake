@@ -114,6 +114,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ojessi/Desktop/Filler/visual/minilibx/mlx_shaders.c" "/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles/Filler.dir/visual/minilibx/mlx_shaders.c.o"
   "/Users/ojessi/Desktop/Filler/visual/minilibx/mlx_xpm.c" "/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles/Filler.dir/visual/minilibx/mlx_xpm.c.o"
   "/Users/ojessi/Desktop/Filler/visual/src/draw.c" "/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles/Filler.dir/visual/src/draw.c.o"
+  "/Users/ojessi/Desktop/Filler/visual/src/draw2.c" "/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles/Filler.dir/visual/src/draw2.c.o"
   "/Users/ojessi/Desktop/Filler/visual/src/keyhook.c" "/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles/Filler.dir/visual/src/keyhook.c.o"
   "/Users/ojessi/Desktop/Filler/visual/src/list_fun.c" "/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles/Filler.dir/visual/src/list_fun.c.o"
   "/Users/ojessi/Desktop/Filler/visual/src/parse_fig.c" "/Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles/Filler.dir/visual/src/parse_fig.c.o"
