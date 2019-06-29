@@ -12,9 +12,9 @@
 
 #include "visualizator.h"
 
-int 	expose(void *param)
+int		expose(void *param)
 {
-	t_params *p;
+	t_params	*p;
 
 	p = param;
 	(void)p;
@@ -22,9 +22,9 @@ int 	expose(void *param)
 	return (0);
 }
 
-int 	keyboard(int key, void *param)
+int		keyboard(int key, void *param)
 {
-	t_params *p;
+	t_params	*p;
 
 	p = param;
 	if (key == 53)

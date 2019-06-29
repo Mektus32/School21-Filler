@@ -15,8 +15,7 @@
 void	ft_init_player(t_params *p, char *line)
 {
 	char	*str;
-	int 	i;
-
+	int		i;
 
 	if (!(str = ft_strrchr(line, '/')))
 		str = &line[15];
@@ -38,7 +37,7 @@ void	ft_init_player(t_params *p, char *line)
 		p->player2.name = ft_strsub(str, 0, i);
 		p->player2.id = -1;
 		p->player2.bgcolor = 0x56588A;
-		p->player2.color = 0x3C87B9;
+		p->player2.color = 0x00F534;
 	}
 }
 
@@ -68,10 +67,8 @@ void	ft_init_map(t_params *p, char *line)
 
 void	ft_fill_map(t_params *p, char *line)
 {
-	static	int 	i = 0;
-	int				j;
+	static	int		i = 0;
 
-	j = -1;
 	p->map->map[i] = ft_strcpy(p->map->map[i], &line[4]);
 	i++;
 	if (i == p->map->map_y)
@@ -80,11 +77,10 @@ void	ft_fill_map(t_params *p, char *line)
 
 void	ft_read(t_params *p)
 {
-	char 	*line;
+	char	*line;
 
 	while (get_next_line(0, &line) > 0)
 	{
-	//	ft_printf("{set:fd} %s\n", 3, line);
 		if (line[0] == '$')
 			ft_init_player(p, line);
 		else if (ft_strstr(line, "Plateau") && !p->map)

@@ -14,7 +14,7 @@
 
 void	ft_init_image(t_params *p)
 {
-	int 	*arr;
+	int		*arr;
 
 	if (p->image->img_ptr)
 	{
@@ -29,8 +29,8 @@ void	ft_init_image(t_params *p)
 
 void	ft_create_left_image(t_params *p, t_fig *cur)
 {
-	int 	i;
-	int 	j;
+	int		i;
+	int		j;
 
 	i = -1;
 	while (++i < cur->fig_y)
@@ -44,14 +44,13 @@ void	ft_create_left_image(t_params *p, t_fig *cur)
 		p->player1.score = cur->score;
 	else
 		p->player2.score = cur->score;
-
 }
 
-int 	ft_check(t_params *p, t_fig *cur)
+int		ft_check(t_params *p, t_fig *cur)
 {
-	int 	i;
-	int 	j;
-	int 	count;
+	int		i;
+	int		j;
+	int		count;
 
 	count = 0;
 	i = -1;
@@ -60,7 +59,8 @@ int 	ft_check(t_params *p, t_fig *cur)
 		j = -1;
 		while (++j < cur->fig_x)
 			if (cur->fig[i][j] == '*')
-				if (p->map->map[cur->y + i][cur->x + j] == (cur->player ? 'X' : 'O'))
+				if (p->map->map[cur->y + i][cur->x + j] ==
+				(cur->player ? 'X' : 'O'))
 					count++;
 	}
 	return (count);
@@ -68,39 +68,24 @@ int 	ft_check(t_params *p, t_fig *cur)
 
 void	ft_create_right_image(t_params *p, t_fig *cur)
 {
-	int 	i;
-	int 	j;
+	int		i;
+	int		j;
 
 	if (ft_check(p, cur) != 1)
 		return ;
 	i = -1;
-	while (++i < cur->fig_y) {
+	while (++i < cur->fig_y)
+	{
 		j = -1;
 		while (++j < cur->fig_x)
 			if (cur->fig[i][j] == '*')
 			{
-				if (cur->player == 0)
-				{
-					if (p->map->map[cur->y + i][cur->x + j] == 'O')
-					{
-						cur->sim_y = i;
-						cur->sim_x = j;
-					}
-					else
-						p->map->map[cur->y + i][cur->x + j] = 'O';
-					p->player1.score = cur->score;
-				}
-				else if (cur->player == -1)
-				{
-					if (p->map->map[cur->y + i][cur->x + j] == 'X')
-					{
-						cur->sim_y = i;
-						cur->sim_x = j;
-					}
-					else
-						p->map->map[cur->y + i][cur->x + j] = 'X';
-					p->player2.score = cur->score;
-				}
+				if (cur->player == 0 && (p->map->map[cur->y + i][cur->x + j]
+				== 'O' || p->map->map[cur->y + i][cur->x + j] == '.'))
+					ft_player_o(p, cur, i, j);
+				else if (cur->player == -1 && (p->map->map[cur->y + i][cur->x +
+				j] == 'X' || p->map->map[cur->y + i][cur->x + j] == '.'))
+					ft_player_1(p, cur, i, j);
 			}
 	}
 }
@@ -110,9 +95,10 @@ int		ft_draw(t_params *p)
 	static	t_fig	*cur = NULL;
 
 	if (!cur)
-		cur = p->fig;
-	!p->mlx_ptr ?  p->mlx_ptr = mlx_init() : 0;
-	!p->win_ptr ?  p->win_ptr = mlx_new_window(p->mlx_ptr, WIDTH, HEIGHT, "Filler") : 0;
+		cur = *p->fig;
+	!p->mlx_ptr ? p->mlx_ptr = mlx_init() : 0;
+	!p->win_ptr ? p->win_ptr = mlx_new_window(p->mlx_ptr, WIDTH, HEIGHT,
+			"Filler") : 0;
 	p->slow ? usleep(100000) : 0;
 	ft_init_image(p);
 	if (p->pause && p->right)

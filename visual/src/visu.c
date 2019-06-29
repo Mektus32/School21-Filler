@@ -29,14 +29,14 @@ void	ft_init_p(t_params *p)
 	p->player2.name = ft_strdup("Default");
 	p->player2.id = -1;
 	p->player2.bgcolor = 0x56588A;
-	p->player2.color = 0x3C87B9;
+	p->player2.color = 0x00F534;
 	p->player1.name = ft_strdup("Default");
 	p->player1.id = -1;
 	p->player1.bgcolor = 0x56588A;
 	p->player1.color = 0x3C87B9;
 }
 
-int 	main(void)
+int		main(void)
 {
 	t_params	p;
 
