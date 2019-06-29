@@ -26,6 +26,7 @@ void	ft_init_player(t_params *p, char *line)
 		i++;
 	if (ft_strstr(line, "p1"))
 	{
+		free(p->player1.name);
 		p->player1.name = ft_strsub(str, 0, i);
 		p->player1.id = 0;
 		p->player1.bgcolor = 0xA75252;
@@ -33,6 +34,7 @@ void	ft_init_player(t_params *p, char *line)
 	}
 	else if (ft_strstr(line, "p2"))
 	{
+		free(p->player2.name);
 		p->player2.name = ft_strsub(str, 0, i);
 		p->player2.id = -1;
 		p->player2.bgcolor = 0x56588A;

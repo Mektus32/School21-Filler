@@ -14,8 +14,6 @@
 
 void	ft_init_p(t_params *p)
 {
-	open("/Users/ojessi/Desktop/Filler/one_map", O_RDWR | O_APPEND);
-	open("/Users/ojessi/Desktop/Filler/resources/test", O_RDWR | O_APPEND);
 	p->mlx_ptr = NULL;
 	p->win_ptr = NULL;
 	p->image = ft_memalloc(sizeof(t_image));
@@ -28,25 +26,14 @@ void	ft_init_p(t_params *p)
 	p->right = 0;
 	p->slow = 0;
 	p->fig = NULL;
-}
-
-void	ft_print_list(t_params *p)
-{
-	t_fig	*tmp;
-	int 	i;
-
-	tmp = p->fig;
-	while (tmp)
-	{
-		i = -1;
-		while (++i < tmp->fig_y)
-			ft_printf("%s\n", tmp->fig[i]);
-		ft_printf("y = %d\n", tmp->y);
-		ft_printf("x = %d\n", tmp->x);
-		ft_printf("player = %d\n", tmp->player);
-		ft_printf("score = %d\n", tmp->score);
-		tmp = ft_move_right(tmp, 1);
-	}
+	p->player2.name = ft_strdup("Default");
+	p->player2.id = -1;
+	p->player2.bgcolor = 0x56588A;
+	p->player2.color = 0x3C87B9;
+	p->player1.name = ft_strdup("Default");
+	p->player1.id = -1;
+	p->player1.bgcolor = 0x56588A;
+	p->player1.color = 0x3C87B9;
 }
 
 int 	main(void)
@@ -55,7 +42,6 @@ int 	main(void)
 
 	ft_init_p(&p);
 	ft_read(&p);
-	//ft_print_list(&p);
 	ft_draw(&p);
 	ft_key_hook(&p);
 	mlx_loop(p.mlx_ptr);

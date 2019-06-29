@@ -1,4 +1,8 @@
 /Users/ojessi/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/ojessi/Desktop/Filler
 -- Configuring done
+CMake Error: Cannot open file for write: /Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles/Filler.dir/link.txt.tmp
+CMake Error: : System Error: No space left on device
+CMake Error: Cannot open file for write: /Users/ojessi/Desktop/Filler/cmake-build-debug/CMakeFiles/Filler.dir/DependInfo.cmake.tmp
+CMake Error: : System Error: No space left on device
 -- Generating done
 -- Build files have been written to: /Users/ojessi/Desktop/Filler/cmake-build-debug

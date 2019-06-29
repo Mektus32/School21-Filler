@@ -26,6 +26,7 @@ t_fig	*ft_create_elem(int **par, char **fig, t_fig *prev)
 	list->fig_y = (*par)[4];
 	list->sim_x = 0;
 	list->sim_y = 0;
+	list->color = 0;
 	list->score = (*par)[5];
 	list->prev = prev;
 	list->next = NULL;

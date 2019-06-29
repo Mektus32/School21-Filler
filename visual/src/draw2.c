@@ -22,7 +22,7 @@ int 	*ft_background(int *arr)
 	{
 		j = -1;
 		while (++j < WIDTH)
-			arr[i * WIDTH + j] = 0x0B2F74;
+			arr[i * WIDTH + j] = 0x2F2A47;
 	}
 	return (arr);
 }
@@ -51,50 +51,38 @@ int 	*ft_draw_rectangle(int x, int y, t_params *p, int num)
 
 void	ft_next(t_params *p, int *y, int *x, int color)
 {
-	const int 	dy = 400 / p->map->map_y - 1;
-	const int 	dx = 950 / p->map->map_x - 1;
+	const int 	dy = 480 / p->map->map_y - 1;
+	const int 	dx = 1050 / p->map->map_x - 1;
 	int 		i;
-	int			j;
+	int 		j;
 	int 		*arr;
 
 	arr = (int*)p->image->img_data;
-	i = -1;
-	while (++i < dy)
+	i = *y - 1;
+	while (++i <= dy + *y)
 	{
-		arr[(*y + i) * WIDTH + *x + 1] = 0xFFFFFF;
-		j = 0;
-		if (i != 0)
-			while (++j < dx)
-				arr[(*y + i + 1) * WIDTH + *x + j] = color;
-		if (i == 0)
-			while (++j < dx)
-				arr[(*y + i) * WIDTH + *x + 1 + j] = 0xFFFFFF;
-		arr[(*y + i) * WIDTH + *x + 1 + j] = 0xFFFFFF;
+		j = *x - 1;
+		while (++j <= dx + *x)
+		{
+			if (i == *y || i == dy + *y || j == *x || j == dx + *x)
+				arr[i * WIDTH + j] = 0x000000;
+			else
+				arr[i * WIDTH + j] = color;
+		}
 	}
-	i = -1;
-	while (++i < 1)
+	*x = j;
+	if (*x >= (dx + 1) * p->map->map_x + 10)
 	{
-		j = 0;
-		while (++j < dx + 1)
-			arr[(*y + dy + i) * WIDTH + *x + j] = 0xFFFFFF;
-	}
-	*x += dx + 1;
-	if (*x > 1000)
-	{
-		*x = 100;
-		*y += dy + 1;
-	}
-	if (*y >= 430)
-	{
-		*y = 50;
-		*x = 100;
+		*x = 10;
+		*y = i;
+		*y >= (dy + 1) * p->map->map_y + 10 ? *y = 10 : 0;
 	}
 }
 
 void	ft_draw_box(t_params *p, int color)
 {
-	static int			i = 50;
-	static int			j = 100;
+	static int			i = 10;
+	static int			j = 10;
 
 	ft_next(p, &i, &j, color);
 }
@@ -114,27 +102,43 @@ void	ft_draw_map(t_params *p)
 			else if (p->map->map[i][j] == 'O')
 				ft_draw_box(p, p->player1.color);
 			else if (p->map->map[i][j] == '.')
-				ft_draw_box(p, 0x9C8686);
+				ft_draw_box(p, 0x170F6B);
 	}
+}
+
+void	ft_draw_fig(t_params *p, t_fig *cur)
+{
+	const char	*name = cur->player ? p->player2.name : p->player1.name;
+	const int 	color = cur->player ? p->player2.color : p->player1.color;
+	const char	*y = ft_free_strjoin_duo(ft_strdup("Y -> "), ft_itoa(cur->y));
+	const char	*x = ft_free_strjoin_duo(ft_strdup("X -> "), ft_itoa(cur->x));
+	int 		i;
+
+	!p->pause ? mlx_string_put(p->mlx_ptr, p->win_ptr, WIDTH / 2 - 100, HEIGHT / 2 - 100, 0xFFFFF, "PAUSE") : 0;
+	mlx_string_put(p->mlx_ptr, p->win_ptr, p->map->map_y > 70 ? 1000 : 1070, 10, color, (char*)name);
+	mlx_string_put(p->mlx_ptr, p->win_ptr, p->map->map_y > 70 ? 1000 : 1070, 40, color, (char*)y);
+	mlx_string_put(p->mlx_ptr, p->win_ptr, p->map->map_y > 70 ? 1000 : 1070, 70, color, (char*)x);
+	i = -1;
+	while (++i < cur->fig_y)
+		mlx_string_put(p->mlx_ptr, p->win_ptr, p->map->map_y > 70 ? 1000 : 1070, 100 + i * 15, color, cur->fig[i]);
+	free((void*)y);
+	free((void*)x);
 }
 
 void	ft_print(t_params *p, t_fig *cur)
 {
 	int 	*arr;
 
-
 	arr = (int*)p->image->img_data;
 	arr = ft_background(arr);
-	arr = ft_draw_rectangle(100, HEIGHT - 80, p, 1);
-	ft_draw_rectangle(WIDTH - 600, HEIGHT - 80, p, 2);
+	arr = ft_draw_rectangle(10, HEIGHT - 80, p, 1);
+	ft_draw_rectangle(WIDTH - 700, HEIGHT - 80, p, 2);
 	ft_draw_map(p);
 	mlx_put_image_to_window(p->mlx_ptr, p->win_ptr, p->image->img_ptr, 0, 0);
-	mlx_string_put(p->mlx_ptr, p->win_ptr, 1100, 50, cur->player ? p->player2.color : p->player1.color, ft_free_strjoin_rev(cur->player ? "X -> " : "O -> ", ft_free_strjoin_duo(ft_itoa(cur->fig_y), ft_itoa(cur->fig_x))));
-	for (int i = 0; i < cur->fig_y; i++)
-		mlx_string_put(p->mlx_ptr, p->win_ptr, 1100, 100 + i * 10, cur->player ? p->player2.color : p->player1.color, cur->fig[i]);
-	mlx_string_put(p->mlx_ptr, p->win_ptr, 100, HEIGHT - 100, p->player1.color, p->player1.name);
-	mlx_string_put(p->mlx_ptr, p->win_ptr, 100 + 100, HEIGHT - 100, p->player1.color, ft_itoa(p->player1.score));
-	mlx_string_put(p->mlx_ptr, p->win_ptr, WIDTH - 600, HEIGHT - 100, p->player2.color, p->player2.name);
-	mlx_string_put(p->mlx_ptr, p->win_ptr, WIDTH - 600 + 100, HEIGHT - 100, p->player2.color, ft_itoa(p->player2.score));
+	ft_draw_fig(p, cur);
+	mlx_string_put(p->mlx_ptr, p->win_ptr, 10, HEIGHT - 100, p->player1.color, p->player1.name);
+	mlx_string_put(p->mlx_ptr, p->win_ptr, 10 + 100, HEIGHT - 100, p->player1.color, ft_itoa(p->player1.score));
+	mlx_string_put(p->mlx_ptr, p->win_ptr, WIDTH - 700, HEIGHT - 100, p->player2.color, p->player2.name);
+	mlx_string_put(p->mlx_ptr, p->win_ptr, WIDTH - 700 + 100, HEIGHT - 100, p->player2.color, ft_itoa(p->player2.score));
 
 }

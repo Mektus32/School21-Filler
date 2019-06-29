@@ -35,6 +35,7 @@ typedef	struct		s_fig
 	struct	s_fig	*prev;
 	int 			sim_y;
 	int 			sim_x;
+	int 			color;
 }					t_fig;
 
 typedef	struct		s_image
