@@ -6,7 +6,7 @@
 /*   By: ojessi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/28 13:54:04 by ojessi            #+#    #+#             */
-/*   Updated: 2019/06/28 13:54:05 by ojessi           ###   ########.fr       */
+/*   Updated: 2019/06/29 19:44:56 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,6 @@
 
 void	ft_init_image(t_params *p)
 {
-	int		*arr;
-
 	if (p->image->img_ptr)
 	{
 		mlx_destroy_image(p->mlx_ptr, p->image->img_ptr);

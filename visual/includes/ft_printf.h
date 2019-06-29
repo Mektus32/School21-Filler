@@ -6,7 +6,7 @@
 /*   By: ojessi <ojessi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/02 15:18:43 by ojessi            #+#    #+#             */
-/*   Updated: 2019/06/11 13:11:55 by ojessi           ###   ########.fr       */
+/*   Updated: 2019/06/29 19:45:41 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 # define BOX "boxBOX"
 # define ISNUM(x) (x >= '0' && x <= '9')
 
-# include <stdio.h>
 # include <stdlib.h>
 # include <stdarg.h>
 # include <unistd.h>

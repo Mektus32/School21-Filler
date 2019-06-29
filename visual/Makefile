@@ -6,7 +6,7 @@
 #    By: ojessi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/06/24 17:22:17 by ojessi            #+#    #+#              #
-#    Updated: 2019/06/24 17:22:18 by ojessi           ###   ########.fr        #
+#    Updated: 2019/06/29 19:42:28 by ojessi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,8 +29,7 @@ OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))
 
 # compiler
 CC = gcc
-#CFLAGS = -Wextra -Werror -Wall -g
-CFLAGS = -g
+CFLAGS = -Wextra -Werror -Wall -g
 
 # mlx library
 MLX = ./minilibx/

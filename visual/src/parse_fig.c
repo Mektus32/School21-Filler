@@ -6,13 +6,13 @@
 /*   By: ojessi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/28 11:44:28 by ojessi            #+#    #+#             */
-/*   Updated: 2019/06/28 11:44:29 by ojessi           ###   ########.fr       */
+/*   Updated: 2019/06/29 19:44:34 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "visualizator.h"
 
-int		*ft_get_params_fig(t_params *p, char *line, int *par)
+int		*ft_get_params_fig(char *line, int *par)
 {
 	int		i;
 
@@ -27,7 +27,7 @@ int		*ft_get_params_fig(t_params *p, char *line, int *par)
 	return (par);
 }
 
-char	**ft_fill_fig(t_params *p, char *str, char **fig, int *par)
+char	**ft_fill_fig(char *str, char **fig, int *par)
 {
 	static	int		i = 0;
 	int				j;
@@ -49,7 +49,7 @@ char	**ft_fill_fig(t_params *p, char *str, char **fig, int *par)
 	return (fig);
 }
 
-int		*ft_read_score(t_params *p, int *par, char **fig, int *score)
+int		*ft_read_score(int *par, char **fig, int *score)
 {
 	int		i;
 	int		j;
@@ -69,7 +69,7 @@ int		*ft_read_score(t_params *p, int *par, char **fig, int *score)
 	return (par);
 }
 
-int		*ft_get_got(t_params *p, char *str, int *par, char **fig)
+int		*ft_get_got(char *str, int *par, char **fig)
 {
 	int				i;
 	static	int		scorep1 = 0;
@@ -77,13 +77,13 @@ int		*ft_get_got(t_params *p, char *str, int *par, char **fig)
 
 	if (str[6] == 'X')
 	{
-		par = ft_read_score(p, par, fig, &scorep1);
+		par = ft_read_score(par, fig, &scorep1);
 		par[2] = -1;
 	}
 	else if (str[6] == 'O')
 	{
 		par[2] = 0;
-		par = ft_read_score(p, par, fig, &scorep2);
+		par = ft_read_score(par, fig, &scorep2);
 	}
 	i = 0;
 	while (!ft_isdigit(str[i]))
@@ -104,14 +104,14 @@ void	ft_parse_fig(t_params *p, char *line)
 	t_fig			*tmp;
 
 	par = ft_memalloc(sizeof(int) * 6);
-	par = ft_get_params_fig(p, line, par);
+	par = ft_get_params_fig(line, par);
 	fig = NULL;
 	while (get_next_line(0, &str) > 0 && !ft_strstr(str, "<got"))
 	{
-		fig = ft_fill_fig(p, str, fig, par);
+		fig = ft_fill_fig(str, fig, par);
 		ft_strdel(&str);
 	}
-	par = ft_get_got(p, str, par, fig);
+	par = ft_get_got(str, par, fig);
 	str ? ft_strdel(&str) : 0;
 	if (!p->fig)
 	{
