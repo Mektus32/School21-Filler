@@ -6,7 +6,7 @@
 /*   By: ojessi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/23 17:56:06 by ojessi            #+#    #+#             */
-/*   Updated: 2019/06/23 17:56:07 by ojessi           ###   ########.fr       */
+/*   Updated: 2019/06/29 19:56:39 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,5 +35,7 @@ int		main(void)
 		ft_read_params(&filler, line);
 		ft_strdel(&line);
 	}
+	if (filler.map)
+		ft_frtwarr((void**)filler.map, filler.map_y);
 	return (0);
 }

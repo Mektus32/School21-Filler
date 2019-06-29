@@ -6,7 +6,7 @@
 /*   By: ojessi <ojessi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 18:18:09 by ojessi            #+#    #+#             */
-/*   Updated: 2019/06/10 17:15:48 by ojessi           ###   ########.fr       */
+/*   Updated: 2019/06/29 19:41:47 by ojessi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,5 +111,7 @@ char				*ft_ultoa(unsigned long n);
 void				ft_frtwarr(void **arr, int size);
 void				ft_list_remove_free_if(t_list **begin_list, int elem);
 int					get_next_line(int fd, char **line);
+int					ft_max(int a, int b);
+int					ft_min(int a, int b);
 
 #endif
